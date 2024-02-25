@@ -1,4 +1,22 @@
-# Struktur Dasar HTML 
+# Pengenalan Web
+## Sejarah
+Sejarah ==web development== yaitu pada tahun 1990-an seorang insinyur bernama tim barnestly dia nyetir suatu konsep yg memungkinkan sebuah dokumen bisa terhubung satu sama lain melalui internet.
+Protokol http yg menjadi jembatan antara server dan client untuk saling mengirim data bisa disebut perantara/jembatan.
+Karena data yg dikirim berupa teks mentah akan lebih mudah membaca dokumen yang diformat makanya dia ciptain html untuk teks jadi lebih rapi dan lebih bertekstur.
+file html akan dianggap sebagai satu halaman atau satu tubuh setiap halaman akan dimulai dengan teks.
+html ini kayak ganti background atau ganti ukurannya tapi semakin banyak tag dan stylingnya di html tersebut semakin berantakan juga kode yang kita buat.
+Pada tahun 1994 diciptakanlah ==CSS== oleh pak Hakon Wiyung Lee tujuannya agar tapi dan struktur htmlnya terpisah dan jadi lebih mudah untuk dipertahankan.
+Di ==CSS== kita bisa hias misalkan teks ingin Menganti warnanya dan backgroundnya atau gambar yg ingin memper besar ukurannya bisa style di ==CSS==.
+
+**Kesimpulan** :Web development pada tahun 1990-an seorang insinyur bernama tim barnes lee dia nyetir suatu konsep dokumen bisa terhubung satu sama lain melalui internet.Protokol http yg menjadi jembatan antara server dan client untuk saling mengirim data.Karena data yg dikirim berupa teks mentah makanya dia ciptain html untuk teks jadi lebih rapi dan lebih bertekstur.jika html banyak tag dan stylingnya maka semakin berantakan kodenya, diciptakanlah CSS pada tahun 1994 oleh pak Hakon Wiyung Lee agar struktur htmlnya terpisah dan mudah, di CSS kita bisa menghias program kita misal ingin menganti warna teks atau backgroundnya dan gambar.
+
+# Deskripsi Gambar
+![Aaa](Asettt/Aaa.png)
+Di atas ==HTML== bagaikan kerangka rumah yg belum mempunyai hiasan apapun.
+Di atas ==CSS== rumahnya sudah memiliki hiasan seperti sudah mempunyai seng, cerobong asap, jendela dan cet berwarna.
+Di atas ==JAVASCRIPT== rumahnya ada sebuah interaksi seperti cerobong asap yg mengeluarkan asap dikarenakan memasak maupun membakar kayu, di jendela terlihat ada cahaya dikarenakan didalam rumah itu menyalakan lampu pakai saklar dan pintu yg tertutup dikarenakan pintu itu bisa dibuka dan ditutup.
+#  Belajar HTML
+## Struktur Dasar HTML 
 Struktur dasar HTML adalah kerangka dasar yang digunakan untuk membuat halaman web.
 
 **Contoh**:
@@ -16,14 +34,14 @@ Struktur dasar HTML adalah kerangka dasar yang digunakan untuk membuat halaman w
 ```
 
 **Hasil**:
-![hasil_html](asettt/dasar.png)
+![hasil_html](Asettt/Dasar.png)
 
 **Penjelasan**:
 - Tag `<!DOCTYPE html>` memberitahukan web browser bahwa dokumen HTML adalah versi 5.
 - Tag pembuka `<html>` menandai awal sebuah dokumen HTML sampai dengan tag penutup `</html>`.
 - Tag pembuka `<head>` berisi informasi tentang halaman HTML sampai dengan tag penutup `</head>`, biasanya dalam tag head terdapat tag `<titel>` untuk memberikan informasi judul halam HTML.
 - apapun tag yang berada di antara tag pembuka `<body>` sampai dengan tag penutup `</body>` akan tampil di web browser.
-# Anatomi Elemen HTML
+## Anatomi Elemen HTML
 Anatomi elemen HTML terdiri dari tag pembuka, tag penutup, dan konten
 
 **Contoh**:
@@ -38,14 +56,14 @@ Anatomi elemen HTML terdiri dari tag pembuka, tag penutup, dan konten
 - Tag pembuka `<a>` tag yang menandakan awalan dan `</a>` akhir URL/link.
 -  atribut `href` digunakan untuk menentukan halaman web URL/link. Contoh nilai atribut https://www.google.com.
 - isi konten itu untuk masuk ke URL/link yang sudah kita buat di atribut `href` yaitu "klik google"
-## Tag Pembuka dan Tag Penutup
+### Tag Pembuka dan Tag Penutup
 Tag pembuka dan tag penutup adalah dua bagian dari suatu elemen dalam HTML yang digunakan untuk menentukan awal dan akhir dari elemen tersebut. Tag pembuka dimulai dengan nama elemen yang diapit oleh tanda kurung sudut ("<" dan ">"). Tag penutup serupa dengan tag pembuka, tetapi memiliki karakter garis miring tambahan ("/") sebelum nama elemennya. contoh ini, `<p>` adalah tag pembuka, dan `</p>` adalah tag penutup
-## Atribut Tag
+### Atribut Tag
 Atribut tag merujuk pada informasi tambahan yang diberikan kepada elemen HTML untuk memberikan rincian atau pengaturan tertentu. Atribut dapat ditambahkan ke sebagian besar tag HTML dan berfungsi untuk mengontrol perilaku atau tampilan elemen tersebut. Contohnya, pada tag `<a>` (hipertaut), atribut `href` digunakan untuk menentukan URL tujuan. Begitu juga, pada tag `<img>`(gambar), atribut src menunjukkan sumber gambar. 
-## Isi/Konten Tag
+### Isi/Konten Tag
 Isi atau konten tag merujuk pada teks, elemen, atau informasi yang ditempatkan di antara tag pembuka dan tag penutup dalam markup HTML. Contoh sederhana adalah tag paragraf `<p>`, di mana isi tag tersebut adalah teks yang ingin dimuat dalam paragraf. Contoh "Ini adalah contoh isi atau konten dalam tag paragraf." adalah isi atau konten yang akan ditampilkan atau diinterpretasikan oleh browser web ketika halaman HTML di-render.
-# Tag Dasar
-## Heading
+## Tag Dasar
+### Heading
 Heading (judul) dalam HTML digunakan untuk menandai tingkatan atau level judul pada halaman web.
 
 **Contoh**:
@@ -68,7 +86,7 @@ Heading (judul) dalam HTML digunakan untuk menandai tingkatan atau level judul p
 ```
 
 **Hasil**:
-![H1-H6](asettt/H1-H6.png)
+![H1-H6](Asettt/H1-H6.png)
 
 **Penjelasan**:
 - Tag `<h1>` Digunakan untuk judul utama atau level judul tertinggi
@@ -77,7 +95,7 @@ Heading (judul) dalam HTML digunakan untuk menandai tingkatan atau level judul p
 - Tag `<h4>` Menunjukkan tingkatan judul yang lebih rendah atau subjudul dari `<h3>`
 - Tag `<h5>` Menunjukkan tingkatan judul yang lebih rendah atau subjudul dari `<h4>`
 - Tag `<h6>` Menunjukkan tingkatan judul yang lebih rendah atau subjudul dari `<h5>` 
-## Paragraf
+### Paragraf
 Paragraf adalah unit terkecil dalam penulisan yang terdiri dari satu atau lebih kalimat.
 
 **Contoh**:
@@ -100,7 +118,7 @@ Paragraf adalah unit terkecil dalam penulisan yang terdiri dari satu atau lebih 
 ```
 
 **Hasil**:
-![p_b_u_i_br_hr|](asettt/paragraf.png)
+![p_b_u_i_br_hr|](Asettt/Paragraf.png)
 
 **Penjelasan**:
 - Tag `<p>`digunakan untuk menandai paragraf pada halaman web dan di akhiri `</p>`. Ini memberikan jarak antara paragraf.
@@ -123,11 +141,11 @@ Paragraf adalah unit terkecil dalam penulisan yang terdiri dari satu atau lebih 
   </body>
 </html>
 ```
-![Align|250x500](asettt/Align.jpg)
+![Align|250x500](Asettt/Align.jpg)
 - Atribut `align="right"` Teks dalam paragraf ini akan diatur agar terletak di sebelah kanan.
 - Atribut `align="center"` Teks dalam paragraf ini akan diatur agar berada di tengah.
 - Atribut `align="left"` Teks dalam paragraf ini akan diatur agar berada di sebelah kiri.
-## Komentar
+### Komentar
 Komentar dalam konteks pemrograman adalah catatan atau informasi tambahan yang ditambahkan ke dalam kode sumber untuk memberikan pemahaman lebih lanjut kepada pembaca atau programmer lainnya. 
 
 **Contoh**:
@@ -145,11 +163,11 @@ Komentar dalam konteks pemrograman adalah catatan atau informasi tambahan yang d
 ```
 
 **Hasil**:
-![komentar|250x500](asettt/komentar.jpg)
+![komentar|250x500](Asettt/Komentar.jpg)
 
 **Penjelasan**:
 - untuk membuat komentar di HTML menggunakan awalan `<!--` dan akhiran `-->`. Komentar ini tidak akan ditampilkan di browser dan digunakan untuk menyisipkan catatan atau keterangan yang hanya ditujukan bagi pengembang.
-## List
+### List
 List adalah struktur data yang digunakan dalam pemrograman untuk menyimpan sejumlah elemen atau nilai secara terurut.
 
 **Contoh**:
@@ -176,13 +194,13 @@ List adalah struktur data yang digunakan dalam pemrograman untuk menyimpan sejum
 ```
 
 **Hasil**:
-![List|250x500](asettt/list.jpg)
+![List|250x500](Asettt/List.jpg)
 
 **Penjelasan**:
 - Tag `<ul>` (Unorderet List) digunakan untuk mendefinisikan awal dari daftar tak berurut dan diakhiri `</ul>`.
 - Tag `<Li>` daftar atau list item, bisa digunakan dalam kombinasi tag `<ul>` dan `<ol>` di akhiri `</Li>`.
 - Tag `<ol>` (Onderet List) digunakan untuk mendefinisikan awal dari daftar berurut dan di akhiri `</ol>`.
-## Link
+### Link
 Link, atau tautan, adalah elemen dalam teks atau dokumen yang merujuk atau mengarahkan ke lokasi lain, baik dalam dokumen yang sama maupun dokumen terpisah.
 
 **Contoh**:
@@ -201,15 +219,15 @@ Link, atau tautan, adalah elemen dalam teks atau dokumen yang merujuk atau menga
 ```
 
 **Hasil**:
-![Link|250x500](asettt/link.jpg)
+![Link|250x500](Asettt/Link.jpg)
 
 **Penjelasan**:
 - Tag pembuka `<a>` tag yang menandakan awalan dan `</a>` akhir URL/link.
 -  atribut `href` digunakan untuk menentukan halaman web URL/link. Contoh nilai atribut https://www.google.com.
 - isi konten itu untuk masuk ke URL/link yang sudah kita buat di atribut `href` yaitu "klik google".kita juga bisa masuk ke halaman lain yg kita buat.
 Link dapat ditemukan di hampir semua balaman web. Link/tautan memungkinkan sebuah teks yang ketika di klik akan pindah ke haleman lainnya. HTML menggunakan tag ``<a>``untuk kepeduan ini. Link ditulis dengan ``<a>``yang merupakan singkatan card anchor (jangkar).
-## Multimedia
-### Gambar
+### Multimedia
+#### Gambar
 Gambar adalah representasi visual dari objek, scene, atau informasi.
 
 **Contoh**:
@@ -226,9 +244,9 @@ Gambar adalah representasi visual dari objek, scene, atau informasi.
 ```
 
 **Hasil**:
-![img1|250x500](asettt/foto.jpg)
+![img1|250x500](Asettt/Foto.jpg)
 **File gambar**:
-![img2](asettt/file.png)
+![img2](Asettt/File.png)
 **Penjelasan**:
 Dalam HTML, gambar didefinisikan dengan tag ing) Tag <ing adalah tag kosong. hanya berisi atribut saja, dan tidak memiliki tag penutup.
 
@@ -240,7 +258,7 @@ Dalam tag ``<img>`` terdapat juga atribut width dan height untuk mengatur ukuran
 
 - Misalnya dalam folder root terdapat file gambar bernama logo.png. Untuk menampilkan gambar tersebut kita hanya perlu mengisi nama gambar beserta jenis ekstensi file gambar ke dalam atribut src, contohnya src="logo.png"
 - Untuk menampilkan gambar dari internet carilah link gambar yang akan ditampilkan lalu masukkan dalam nilai atribut src, contohnya https://namasitus.com/gambar.png.
-### Video
+#### Video
 Video adalah representasi visual dan audio yang bergerak, biasanya disajikan dalam format digital.
 
 **Contoh**:
@@ -259,10 +277,10 @@ Video adalah representasi visual dan audio yang bergerak, biasanya disajikan dal
 ```
 
 **Hasil**:
-![Video1](asettt/video1.png)
+![Video1](Asettt/Video1.png)
 
 **File Video**:
-![video2](asettt/video2.png)
+![video2](Asettt/Video2.png)
 
 **Penjelasan**:
 dalam HTML, video didefinisikan dengan tag `<video>`, tag `<video>` adalah tag yang digunakan untuk memasukkan video kedalam web, di tag `<video>` terdapat tag khusus yang dimana tag ini tidak memiliki tag penutup yaitu `<source>` yang Digunakan untuk menyediakan beberapa sumber video dan memberi browser pilihan format yang sesuai.
@@ -270,7 +288,7 @@ dalam HTML, video didefinisikan dengan tag `<video>`, tag `<video>` adalah tag y
 Dalam tag `<video>` terdapat juga atribut   `controls` yang digunakan untuk Menambahkan kontrol pemutaran standar seperti play, pause, dan volume, dan juga di tag `<video>` ada atribut `width` dan `height` yang digunakan untuk mengatur ukuran video, pada versi HTML 5 standar satuan ukuran video adalah pixel, dan juga di dalam nya juga terdapat atribut `type` yang di gunakan untuk menentukan tipe MIME (Multipurpose Internet Mail Extensions) dari file video yang disematkan.
 
 misalnya dalam folder root terdapat file video bernama video.mp4. untuk menampilkan video tersebut kita hanya perlu mengisi nama video beserta jenis ekstensi file video didalam tag `<source>` dan didalamnya atribut `src` terus juga didalam tag `<source>` kita beri juga didalamnya atribut `type` untuk menetukan tipe MIME(Multipurpose Internet Mail Extensions) di file video yang di sematkan.
-### Audio
+#### Audio
 Audio adalah bentuk data yang berisi informasi suara atau sinyal audio.
 
 **Contoh**:
@@ -289,10 +307,10 @@ Audio adalah bentuk data yang berisi informasi suara atau sinyal audio.
 ```
 
 **Hasil**:
-![audio1](asettt/audio1.png)
+![audio1](Asettt/Audio1.png)
 
 **File Audio**:
-![audio2](asettt/file.png)
+![audio2](Asettt/File.png)
 
 **Penjelasan**:
 Di HTML, tag `<audio>` digunakan untuk menyematkan dan memainkan file audio di halaman web. Tag ini memungkinkan pengembang web menyertakan file audio langsung di dalam dokumen HTML, memungkinkan pemutaran langsung di halaman tanpa perlu mengarahkan pengguna ke halaman terpisah atau menggunakan pemutar audio eksternal. di dalam tag `<audio>` juga memiliki atribut yaitu `src` ,  `controls` , `type` yang memiliki fungsi masing masing
@@ -301,7 +319,7 @@ Di HTML, tag `<audio>` digunakan untuk menyematkan dan memainkan file audio di h
 - `controls` yang digunakan untuk Menambahkan kontrol pemutaran standar seperti play, pause, dan volume.
 - `type` digunakan untuk menentukan tipe MIME (Multipurpose Internet Mail Extensions) dari file audio yang disematkan.
 - `<source>` Digunakan untuk menyediakan beberapa sumber audio dan memberi browser pilihan format yang sesuai.
-### Halaman Web Lain
+#### Halaman Web Lain
 Halaman web lain merujuk pada laman atau situs web yang berbeda dan terpisah dari halaman web yang sedang diakses.
 
 **Contoh**:
@@ -318,7 +336,7 @@ Halaman web lain merujuk pada laman atau situs web yang berbeda dan terpisah dar
 ```
 
 **Hasil**:
-![web|250x500](asettt/web.jpg)
+![web|250x500](Asettt/Lain.jpg)
 
 **Penjelasan**:
 Elemen `<iframe>` dapat digunakan untuk menampilkan dokumen html lain dalam sebuah website. Mudahnya, bsa dibilang website dalam website.
@@ -329,7 +347,7 @@ Dalam tag `<iframe>` ada beberapa atribut yang penting seperti:
 
 - `src` , untuk mencari sumber halaman html atau web yang akan ditampilkan di dalam frame
 -  `width` dan `height` , untuk mengatur ukuran panjang dan lebar dari frame
-## Table
+### Table
 Tabel adalah struktur data dalam HTML yang digunakan untuk mengorganisir dan menampilkan data secara terstruktur dalam bentuk baris dan kolom.
 
 **Contoh**:
@@ -374,7 +392,7 @@ Tabel adalah struktur data dalam HTML yang digunakan untuk mengorganisir dan men
 ```
 
 **Hasil**:
-![table](asettt/table.png)
+![table](Asettt/Table.png)
 
 **Penjelasan**:
 - Tag`<table>`sering kali merujuk pada struktur data yang disusun dalam bentuk tabel, tabel memiliki baris dan kolom yang mengorganisir data secara terstruktur.
@@ -387,7 +405,7 @@ Tabel adalah struktur data dalam HTML yang digunakan untuk mengorganisir dan men
 - atribut `width` digunakan untuk lebar suatu elemen HTML / atribut `height` digunakan untuk tinggi suatu elemen HTML.
 - atribut `Align` untuk mengatur letak paragraf, `right`=kanan, `left`=kiri, dan `center`=tengah.
 - atribut `bgcolor` biasanya digunakan untuk menentukan warna latar belakang (background) suatu elemen.
-## Form 
+### Form 
 Form dalam HTML digunakan untuk mengumpulkan data dari pengguna.
 
 **Contoh**:
@@ -447,7 +465,7 @@ Form dalam HTML digunakan untuk mengumpulkan data dari pengguna.
 ```
 
 **Hasil**:
-![from|250x500](asettt/from.jpg)
+![from|250x500](Asettt/From.jpg)
 
 **Penjelasan**:
 Elemen `<form>` HTML digunakan untuk mendefinisikan form yang digunakan  untuk mengumpulkan inputan dari penggunaan website. Tag ini digunakan untuk mengoleksi inputan dari user, konsep ini sama seperti konsep formulir di dunia nyata.
@@ -516,7 +534,7 @@ Beberapa atribut yang digunakan pada contoh di atas yang perlu untuk diperjelas 
 - `value` - menentukan nilai awal dari sebuah elemen input.
 - `disabled` - digunakan untuk menonaktifkan inputan pada elemen yang diberi atribut ini.
 
-### **Bagaimana Cara Memproses Form?**
+#### **Bagaimana Cara Memproses Form?**
 
 Ketika sebuah `<form>` disubmit, baik menggunakan elemen `<button>` mau pun `<input type="submit">`, browser akan mengirimkan data tersebut kepada URL yang didefinisikan pada atribut `action` di dalam tag `form`.
 
@@ -543,8 +561,8 @@ Untuk mendapatkan gambaran lebih jelas, sebenarnya akan dijelaskan pada modul se
 
 [Link Jago Ngoding](https://jagongoding.com/web/php/web-dinamis/membuat-dan-menangani-form/)
 
-## Div & Span
-### Div
+### Div & Span
+#### Div
 **Contoh**:
 ```html
 <!DOCTYPE html>
@@ -560,11 +578,11 @@ Untuk mendapatkan gambaran lebih jelas, sebenarnya akan dijelaskan pada modul se
 ```
 
 **Hasil**:
-![a](asettt/Div.png)
+![a](Asettt/Div.png)
 
 **Penjelasan**:
 tag div merupakan tag yang digunakan untuk membuat layer yang dimana itu akan memudahkan seorang devoloper untuk membuat layout sesuai dengan desain yang diinginkan.
-### Span
+#### Span
 **Contoh**:
 ```html
 <!DOCTYPE html>
@@ -580,7 +598,7 @@ tag div merupakan tag yang digunakan untuk membuat layer yang dimana itu akan me
 ```
 
 **Hasil**:
-![a](asettt/span.png)
+![a](Asettt/Span.png)
 
 **Penjelasan**:
 Mirip seperti DIV, span adalah tag HTML yang tidak punya makna apa-apa ketika berdiri sendiri. Ia berguna untuk memberi aksi atau hiasan pada sebuah atau sekelompok elemen HTML.

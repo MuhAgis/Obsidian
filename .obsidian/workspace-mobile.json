@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "HTML/Pengenalan HTML.md",
+                "file": "HTML/Catatan HTML.md",
                 "mode": "source",
                 "source": false
               }
@@ -125,7 +125,7 @@
         "state": {
           "type": "backlink",
           "state": {
-            "file": "HTML/Pengenalan HTML.md",
+            "file": "HTML/Catatan HTML.md",
             "collapseAll": false,
             "extraContext": false,
             "sortOrder": "alphabetical",
@@ -142,7 +142,7 @@
         "state": {
           "type": "outgoing-link",
           "state": {
-            "file": "HTML/Pengenalan HTML.md",
+            "file": "HTML/Catatan HTML.md",
             "linksCollapsed": false,
             "unlinkedCollapsed": true
           }
@@ -154,7 +154,7 @@
         "state": {
           "type": "outline",
           "state": {
-            "file": "HTML/Pengenalan HTML.md"
+            "file": "HTML/Catatan HTML.md"
           }
         }
       }
@@ -172,14 +172,17 @@
       "notion-like-tables:Create loom": false
     }
   },
-  "active": "937dfd69b61968cc",
+  "active": "87b768803dae14ca",
   "lastOpenFiles": [
-    "Pengantar web/Definisi HTML CSS DAN JAVASCRIPT gambar dibawah.md",
+    "asettt/web.jpg.md",
+    "HTML/Catatan HTML.md",
+    "asettt",
     "Html belajar/Pertemuan_1.md",
-    "Pengantar web/Asett/Aaa.png",
-    "HTML/Pengenalan HTML.md",
-    "Basis Data/Pengenalan Basis Data.md",
+    "HTML/Asettt/Lain.jpg",
+    "Pengantar web/Definisi HTML CSS DAN JAVASCRIPT gambar dibawah.md",
     "Pengantar web/Pengenalan web.md",
+    "HTML/Asettt/Aaa.png",
+    "Basis Data/Pengenalan Basis Data.md",
     "Basis Data/Instalasi & Query awal data base.md",
     "HTML/Asettt/Div.png",
     "HTML/Asettt/Span.png",
@@ -189,14 +192,12 @@
     "Basis Data/Asett/Mysql5.jpg",
     "Basis Data/Asett/Mysql4.jpg",
     "Basis Data/Asett/Mysql3.png",
-    "Basis Data/Asett/Mysql2.jpg",
     "Basis Data/Untitled 1.loom",
     "Basis Data/Select Lanjutan.md",
     "CSS/Pengenalan CSS.md",
     "CSS/Asep",
     "CSS",
     "asettt/p_b_u_i_br_hr.jpg.md",
-    "asettt",
     "asettt/hasil_html.jpg.md",
     "asettt/H1-H6.jpg.md",
     "Ssdatabase/usedata.jpg.md",
