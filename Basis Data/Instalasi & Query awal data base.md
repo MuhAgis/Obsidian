@@ -45,7 +45,7 @@ Database (basis data) adalah kumpulan data yang terorganisir dengan cara tertent
 9. Untuk menghentikan proses ``ctrl+z``
 10. Masuk ke akun admin ``mysql -u root`` 
 ## referensi youtube
-![](https://youtu.be/JojQd-l7fEE?si=OPIB01q45A2FmY1x)
+https://youtu.be/JojQd-l7fEE?si=OPIB01q45A2FmY1x
 # penggunaan awal MySQL
 ## Query
 ``<mysql -u root -p>``
