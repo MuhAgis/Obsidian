@@ -1,4 +1,4 @@
-# Pengenalan Basis Data
+# Catatan Basis Data
 ## Definisi Basis Data
 **Basis** : Adalah tempat berkumpul, markas, gudang, wadah suatu data
 
