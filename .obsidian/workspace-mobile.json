@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "HTML/Catatan HTML.md",
+                "file": "Basis Data/Instalasi & Query awal data base.md",
                 "mode": "source",
                 "source": false
               }
@@ -125,7 +125,7 @@
         "state": {
           "type": "backlink",
           "state": {
-            "file": "HTML/Catatan HTML.md",
+            "file": "Basis Data/Instalasi & Query awal data base.md",
             "collapseAll": false,
             "extraContext": false,
             "sortOrder": "alphabetical",
@@ -142,7 +142,7 @@
         "state": {
           "type": "outgoing-link",
           "state": {
-            "file": "HTML/Catatan HTML.md",
+            "file": "Basis Data/Instalasi & Query awal data base.md",
             "linksCollapsed": false,
             "unlinkedCollapsed": true
           }
@@ -154,7 +154,7 @@
         "state": {
           "type": "outline",
           "state": {
-            "file": "HTML/Catatan HTML.md"
+            "file": "Basis Data/Instalasi & Query awal data base.md"
           }
         }
       }
@@ -172,27 +172,27 @@
       "notion-like-tables:Create loom": false
     }
   },
-  "active": "87b768803dae14ca",
+  "active": "937dfd69b61968cc",
   "lastOpenFiles": [
-    "asettt/web.jpg.md",
+    "Basis Data/Untitled 1.loom",
+    "Basis Data/Instalasi & Query awal data base.md",
+    "Basis Data/Pengenalan Basis Data.md",
+    "Basis Data/Asett/Kolom1.jpg",
+    "Basis Data/Asett/Kolom2.jpg",
     "HTML/Catatan HTML.md",
+    "asettt/web.jpg.md",
     "asettt",
     "Html belajar/Pertemuan_1.md",
     "HTML/Asettt/Lain.jpg",
     "Pengantar web/Definisi HTML CSS DAN JAVASCRIPT gambar dibawah.md",
     "Pengantar web/Pengenalan web.md",
     "HTML/Asettt/Aaa.png",
-    "Basis Data/Pengenalan Basis Data.md",
-    "Basis Data/Instalasi & Query awal data base.md",
     "HTML/Asettt/Div.png",
     "HTML/Asettt/Span.png",
     "HTML/Asettt/Foto.jpg",
     "HTML/Asettt/File.png",
     "HTML/Asettt/A.jpg",
     "Basis Data/Asett/Mysql5.jpg",
-    "Basis Data/Asett/Mysql4.jpg",
-    "Basis Data/Asett/Mysql3.png",
-    "Basis Data/Untitled 1.loom",
     "Basis Data/Select Lanjutan.md",
     "CSS/Pengenalan CSS.md",
     "CSS/Asep",
@@ -218,7 +218,6 @@
     "Apa",
     "Pengantar web/Aset/You.md",
     "Pengantar web/Aset.md",
-    "Pengantar web/Asett",
-    "You.md"
+    "Pengantar web/Asett"
   ]
 }
