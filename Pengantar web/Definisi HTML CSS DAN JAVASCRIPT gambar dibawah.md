@@ -1,0 +1,3 @@
+![Aaa](asett/Aaa.png)Di atas ==HTML== bagaikan kerangka rumah yg belum mempunyai hiasan apapun.
+Di atas ==CSS== rumahnya sudah memiliki hiasan seperti sudah mempunyai seng, cerobong asap, jendela dan cet berwarna.
+Di atas ==JAVASCRIPT== rumahnya ada sebuah interaksi seperti cerobong asap yg mengeluarkan asap dikarenakan memasak maupun membakar kayu, di jendela terlihat ada cahaya dikarenakan didalam rumah itu menyalakan lampu pakai saklar dan pintu yg tertutup dikarenakan pintu itu bisa dibuka dan ditutup.
