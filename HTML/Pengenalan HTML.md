@@ -32,7 +32,7 @@ Anatomi elemen HTML terdiri dari tag pembuka, tag penutup, dan konten
 ```
 
 **Hasil**:
-![A|250x500](Asettt/a.jpg)
+![A|250x500](Asettt/A.jpg)
 
 **Penjelasan**:
 - Tag pembuka `<a>` tag yang menandakan awalan dan `</a>` akhir URL/link.
