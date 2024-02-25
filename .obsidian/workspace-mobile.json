@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Basis Data/Instalasi & Query awal data base.md",
+                "file": "Basis Data/Catatan Basis Data.md",
                 "mode": "source",
                 "source": false
               }
@@ -125,7 +125,7 @@
         "state": {
           "type": "backlink",
           "state": {
-            "file": "Basis Data/Instalasi & Query awal data base.md",
+            "file": "Basis Data/Catatan Basis Data.md",
             "collapseAll": false,
             "extraContext": false,
             "sortOrder": "alphabetical",
@@ -142,7 +142,7 @@
         "state": {
           "type": "outgoing-link",
           "state": {
-            "file": "Basis Data/Instalasi & Query awal data base.md",
+            "file": "Basis Data/Catatan Basis Data.md",
             "linksCollapsed": false,
             "unlinkedCollapsed": true
           }
@@ -154,7 +154,7 @@
         "state": {
           "type": "outline",
           "state": {
-            "file": "Basis Data/Instalasi & Query awal data base.md"
+            "file": "Basis Data/Catatan Basis Data.md"
           }
         }
       }
@@ -175,7 +175,7 @@
   "active": "937dfd69b61968cc",
   "lastOpenFiles": [
     "Basis Data/Untitled 1.loom",
-    "Basis Data/Instalasi & Query awal data base.md",
+    "Basis Data/Catatan Basis Data.md",
     "Basis Data/Pengenalan Basis Data.md",
     "Basis Data/Asett/Kolom1.jpg",
     "Basis Data/Asett/Kolom2.jpg",
