@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Basis Data/Pengenalan Basis Data.md",
+                "file": "HTML/Pengenalan HTML.md",
                 "mode": "source",
                 "source": false
               }
@@ -125,7 +125,7 @@
         "state": {
           "type": "backlink",
           "state": {
-            "file": "Basis Data/Pengenalan Basis Data.md",
+            "file": "HTML/Pengenalan HTML.md",
             "collapseAll": false,
             "extraContext": false,
             "sortOrder": "alphabetical",
@@ -142,7 +142,7 @@
         "state": {
           "type": "outgoing-link",
           "state": {
-            "file": "Basis Data/Pengenalan Basis Data.md",
+            "file": "HTML/Pengenalan HTML.md",
             "linksCollapsed": false,
             "unlinkedCollapsed": true
           }
@@ -154,7 +154,7 @@
         "state": {
           "type": "outline",
           "state": {
-            "file": "Basis Data/Pengenalan Basis Data.md"
+            "file": "HTML/Pengenalan HTML.md"
           }
         }
       }
@@ -174,6 +174,7 @@
   },
   "active": "937dfd69b61968cc",
   "lastOpenFiles": [
+    "Basis Data/Pengenalan Basis Data.md",
     "HTML/Pengenalan HTML.md",
     "Pengantar web/Pengenalan web.md",
     "Basis Data/Instalasi & Query awal data base.md",
@@ -183,7 +184,6 @@
     "HTML/Asettt/Foto.jpg",
     "HTML/Asettt/File.png",
     "HTML/Asettt/A.jpg",
-    "Basis Data/Pengenalan Basis Data.md",
     "Basis Data/Asett/Mysql5.jpg",
     "Basis Data/Asett/Mysql4.jpg",
     "Basis Data/Asett/Mysql3.png",
