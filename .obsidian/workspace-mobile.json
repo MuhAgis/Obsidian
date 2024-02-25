@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Pengantar web/Definisi HTML CSS DAN JAVASCRIPT gambar dibawah.md",
+                "file": "HTML/Pengenalan HTML.md",
                 "mode": "source",
                 "source": false
               }
@@ -125,7 +125,7 @@
         "state": {
           "type": "backlink",
           "state": {
-            "file": "Pengantar web/Definisi HTML CSS DAN JAVASCRIPT gambar dibawah.md",
+            "file": "HTML/Pengenalan HTML.md",
             "collapseAll": false,
             "extraContext": false,
             "sortOrder": "alphabetical",
@@ -142,7 +142,7 @@
         "state": {
           "type": "outgoing-link",
           "state": {
-            "file": "Pengantar web/Definisi HTML CSS DAN JAVASCRIPT gambar dibawah.md",
+            "file": "HTML/Pengenalan HTML.md",
             "linksCollapsed": false,
             "unlinkedCollapsed": true
           }
@@ -154,7 +154,7 @@
         "state": {
           "type": "outline",
           "state": {
-            "file": "Pengantar web/Definisi HTML CSS DAN JAVASCRIPT gambar dibawah.md"
+            "file": "HTML/Pengenalan HTML.md"
           }
         }
       }
@@ -174,9 +174,9 @@
   },
   "active": "937dfd69b61968cc",
   "lastOpenFiles": [
+    "Pengantar web/Definisi HTML CSS DAN JAVASCRIPT gambar dibawah.md",
     "Html belajar/Pertemuan_1.md",
     "Pengantar web/Asett/Aaa.png",
-    "Pengantar web/Definisi HTML CSS DAN JAVASCRIPT gambar dibawah.md",
     "HTML/Pengenalan HTML.md",
     "Basis Data/Pengenalan Basis Data.md",
     "Pengantar web/Pengenalan web.md",
