@@ -30,10 +30,10 @@ warna teks (text color) dari elemen HTML yang memiliki tag `P` akan diubah menja
 </html>
 ```
 ## Before
-![200](Asep/Bcolor.png)
+![200](Bcolor.png)
 
 ## After
-![200](Asep/Pcolor.png)
+![200](Pcolor.png)
 ## Penjelasan
 mengatur warna teks (text color) dari elemen HTML yang memiliki tag P menjadi merah (red).
 ## Kesimpulan
@@ -54,10 +54,10 @@ button {
 ## Background-Color
 
 ### Before
-![140](Asep/Before.png)
+![140](Before.png)
 
 ### After
-![140](Asep/Bgcolor.png)
+![140](Bgcolor.png)
 
 ### Penjelasan
 `background-color: #001A54;`: Menetapkan warna latar belakang tombol menjadi biru gelap dengan kode warna heksadesimal ``#001A54`.
@@ -67,9 +67,9 @@ background-color dari elemen HTML akan diubah menjadi warna `#001A54`.
 ## Color
 
 ### Before
-![150](Asep/Before.png)
+![150](Before.png)
 ### After
-![150](Asep/Color.png)
+![150](Color.png)
 ### Penjelasan
 mengatur warna teks (text color) menjadi hijau (green).
 
@@ -78,9 +78,9 @@ Warna text akan di ubah menjadi hijau
 ## Font-Size
 
 ### Before
-![150](Asep/Before.png)
+![150](Before.png)
 ### After
-![150](Asep/size.png)
+![150](Size.png)
 ### Penjelasan
 mengatur ukuran font menjadi 20 pixel.
 
@@ -108,7 +108,7 @@ p{
 }
 ```
 ### Hasil
-![a](Asep/Pcolor.png)
+![a](Pcolor.png)
 ### Penjelasan
 `<link rel="stylesheet" href="Style.CSS">`: Menautkan dokumen HTML dengan file CSS eksternal bernama "Style.CSS", sehingga dokumen HTML dapat menerapkan gaya yang didefinisikan dalam file CSS tersebut.
 ## Internal
@@ -131,7 +131,7 @@ p{
 </html>
 ```
 ### Hasil
-![a](Asep/Internal.png)
+![a](Internal.png)
 ### Penjelasan
 Penggunaan Internal CSS: CSS dapat ditulis di dalam tag `<style>` di bagian `<head>` dari dokumen HTML. Ini memungkinkan Anda untuk mendefinisikan gaya untuk seluruh halaman web.
 ## Inline
@@ -148,7 +148,7 @@ Penggunaan Internal CSS: CSS dapat ditulis di dalam tag `<style>` di bagian `<he
 </html>
 ```
 ### Hasil
-![a](Asep/Pcolor.png)
+![a](Pcolor.png)
 ### Penjelasan 
 Penggunaan Inline CSS: CSS dapat dimasukkan langsung ke dalam atribut `<style>` pada elemen HTML. Ini adalah cara paling langsung untuk menerapkan gaya pada suatu elemen.
 # Selector
@@ -176,9 +176,9 @@ p{
 ```
 ### Hasil
 #### Before
-![200](Asep/Ba1.png)
+![200](Ba1.png)
 #### After
-![200](Asep/Ba2.png)
+![200](Ba2.png)
 
 ### Kesimpulan
 Program tersebut menggambarkan penggunaan properti CSS text-align untuk mengatur penataan teks pada elemen paragraf (`<p>`). Pada contoh ini, `text-align: center;` diterapkan, sehingga teks di dalam paragraf akan berada di tengah.
@@ -202,9 +202,9 @@ Menghapus semua dekorasi teks.
 ```
 ### Hasil
 #### Before
-![200](Asep/Ba1.png)
+![200](Ba1.png)
 #### After
-![200](Asep/Td.png)
+![200](Td.png)
 ### Kesimpulan
 Program tersebut menggunakan properti CSS `text-decoration` pada elemen paragraf (`<p>`) dengan nilai `overline` untuk memberikan efek garis di atas teks.
 ## Text transform
@@ -227,10 +227,10 @@ Tidak ada transformasi teks yang diterapkan.
 ```
 ### Hasil
 #### Before
-![200](Asep/Ba1.png)
+![200](Ba1.png)
 
 #### After
-![200](Asep/Tt.png)
+![200](Tt.png)
 ### Kesimpulan 
 Program tersebut menggunakan properti CSS `text-transform` pada elemen paragraf (`<p>`) dengan nilai `uppercase` untuk mengubah seluruh teks di dalamnya menjadi huruf kapital atau huruf besar.
 ## Text Indent
@@ -244,9 +244,9 @@ Program tersebut menggunakan properti CSS `text-transform` pada elemen paragraf 
 ```
 ### Hasil
 #### Before
-![a](Asep/Ba1.png)
+![a](Ba1.png)
 #### After
-![a](Asep/Ti.png)
+![a](Ti.png)
 ### Kesimpulan 
 Program tersebut menggunakan properti CSS `text-indent` pada elemen paragraf (`<p>`) dengan nilai `50px`. Properti ini digunakan untuk menetapkan indentasi teks pada awal paragraf sebesar 50 piksel dari batas kiri elemen.
 Dengan demikian, ketika program dijalankan, teks di dalam paragraf akan dimulai dari posisi yang lebih ke kanan sejauh 50 piksel
@@ -263,9 +263,9 @@ Dengan demikian, ketika program dijalankan, teks di dalam paragraf akan dimulai 
 ```
 ### Hasil
 #### Before
-![a](Asep/Ba1.png)
+![a](Ba1.png)
 #### After
-![a](Asep/Ls.png)
+![a](Ls.png)
 ### Kesimpulan 
 Program tersebut menggunakan properti CSS `letter-spacing` pada elemen paragraf (`<p>`) dengan nilai `20px`. Properti ini mengatur jarak antar huruf dalam teks pada paragraf tersebut.
 ## Line-Height
@@ -279,9 +279,9 @@ Program tersebut menggunakan properti CSS `letter-spacing` pada elemen paragraf 
 ```
 ### Hasil
 #### Before
-![a](Asep/Ba1.png)
+![a](Ba1.png)
 #### After
-![a](Asep/Lh.png)
+![a](Lh.png)
 ### Kesimpulan 
 Program tersebut menggunakan properti CSS `line-height` pada elemen paragraf (`<p>`) dengan nilai `100px`. Properti ini mengatur tinggi baris atau jarak vertikal antara baris teks dalam paragraf tersebut.
 ## Word-Spacing
@@ -295,9 +295,9 @@ Properti `word-spacing` dalam CSS digunakan untuk mengatur jarak antara kata-kat
 ```
 ### Hasil
 #### Before
-![a](Asep/Ba1.png)
+![a](Ba1.png)
 #### After
-![a](Asep/Ws.png)
+![a](Ws.png)
 ### Kesimpulan 
 Program tersebut menggunakan properti CSS `word-spacing` pada elemen paragraf (`<p>`) dengan nilai `15px`. Properti ini mengatur jarak antar kata dalam teks pada paragraf tersebut.
 Dengan nilai `word-spacing: 15px;`, program menciptakan efek peningkatan jarak antar kata sebanyak 15 piksel. Sehingga, kata-kata dalam teks pada paragraf akan memiliki ruang lebih besar antar satu sama lain.
@@ -313,9 +313,9 @@ p {
 ```
 ### Hasil
 #### Before
-![200](Asep/Ss1.png)
+![200](Basis%20Data/Asep/Ss1.png)
 #### After
-![200](Asep/Ss2.png)
+![200](Basis%20Data/Asep/Ss2.png)
 ### Kesimpulan
 `Background-color` adalah kode buat kita menambahkan warna biru pada latar belakang dari elemen html.
 ## Background-image
@@ -329,9 +329,9 @@ p {
 ```
 ### Hasil
 #### Before
-![200](Asep/Ss1.png)
+![200](Basis%20Data/Asep/Ss1.png)
 #### After
-![200](Asep/Ss3.png)
+![200](Basis%20Data/Asep/Ss3.png)
 ### Kesimpulan
 Program tersebut mencoba mengatur `background image` pada elemen paragraf (`<p>`) dengan menggunakan CSS.
 ## Background-repeat
@@ -348,9 +348,9 @@ p {
 ```
 ### Hasil
 #### Before
-![a](Asep/Ss1.png)
+![a](Basis%20Data/Asep/Ss1.png)
 #### After
-![a](Asep/Ss3.png)
+![a](Basis%20Data/Asep/Ss3.png)
 ### Kesimpulan
 program CSS tersebut adalah mengatur latar belakang halaman web dengan gambar "ml.jpg" tanpa pengulangan (`no-repeat`).
 ## Background-attachment
@@ -368,9 +368,9 @@ background-attachment: fixed;
 ```
 ### Hasil
 #### Before
-![a](Asep/Ss1.png)
+![a](Basis%20Data/Asep/Ss1.png)
 #### After
-![a](Asep/Ss4.png)
+![a](Basis%20Data/Asep/Ss4.png)
 ### Kesimpulan
 Kesimpulannya, latar belakang halaman web akan menampilkan gambar `ml.jpg` secara tetap pada seluruh ketinggian layar tanpa pengulangan.
 ## Background-size
@@ -386,9 +386,9 @@ p {
 ```
 ### Hasil
 #### Before
-![a](Asep/Ss1.png)
+![a](Basis%20Data/Asep/Ss1.png)
 #### After
-![a](Asep/Ss5.png)
+![a](Basis%20Data/Asep/Ss5.png)
 ### Kesimpulan
 Program tersebut mencoba mengatur `background-image` menggunakan `background-size: 70px 70px`pada elemen dan gambar akan di atur 70piksel x 70piksel.
 ## Background-position
@@ -410,9 +410,9 @@ P {
 ```
 ### Hasil
 #### Before
-![a](Asep/SS5.png)
+![a](Basis%20Data/Asep/Ss5.png)
 #### After
-![a](Asep/Ss6.png)
+![a](Basis%20Data/Asep/Ss6.png)
 ### Kesimpulan
 Gambar tersebut tidak akan diulang-ulang (`no-repeat`) dan akan diatur agar berukuran 70 piksel x 70 piksel (`background-size`). Selain itu, gambar akan diposisikan di tengah-tengah halaman (`background-position: center`).
 # Font
@@ -427,9 +427,9 @@ p {
 ```
 ### Hasil
 #### Before 
-![a](Asep/Ss11.png)
+![a](Ss11.png)
 #### After
-![a](Asep/Ss12.png)
+![a](Ss12.png)
 ### Kesimpulan
 `font-size` merupakan properti yang digunakan untuk mengatur seberapa besar atau kecil ukuran font yang di inginkan.
 ## Font-style
@@ -443,9 +443,9 @@ p {
 ```
 ### Hasil
 #### Before
-![q](Asep/Ss11.png)
+![q](Ss11.png)
 #### After
-![a](Asep/Ss14.png)
+![a](Ss14.png)
 ### Kesimpulan
 membuat teks di dalam elemen `<p>` menjadi miring (`italic`) dengan menggunakan CSS.
 ## Font-weight
@@ -459,9 +459,9 @@ p {
 ```
 ### Hasil
 #### Before
-![q](Asep/Ss11.png)
+![q](Ss11.png)
 #### After
-![a](Asep/Ss13.png)
+![a](Ss13.png)
 ### Kesimpulan
 membuat teks di dalam elemen `<p>` menjadi tebal (`bold`) dengan menggunakan CSS.
 ## Font-family
@@ -475,9 +475,9 @@ p {
 ```
 ### Hasil
 #### Before
-![a](Asep/Ss11.png)
+![a](Ss11.png)
 #### After
-![a](Asep/Ss15.png)
+![a](Ss15.png)
 ### Kesimpulan
 mengatur jenis huruf (`font family`) dari teks di dalam elemen `<p>` menjadi `Times New Roman` menggunakan CSS.
 # Box model
@@ -497,9 +497,9 @@ border-color: red;
 ```
 ### hasil
 #### before
-![](Asep/Ss7.png)
+![](Basis%20Data/Asep/Ss7.png)
 #### after
-![](Asep/Ss8.png)
+![](Basis%20Data/Asep/Ss8.png)
 ### kesimpulan
 kesimpulan kode tersebut `div { border-color: red; }` adalah bahwa semua elemen `<div>` pada halaman web akan memiliki border dengan warna merah.
 Dengan kode tersebut, setiap elemen `<div>` akan memiliki border dengan lebar default (biasanya 1 piksel), gaya default (biasanya solid), namun warna bordernya akan diatur menjadi merah. Ini berarti elemen `<div>` akan memiliki garis pinggiran berwarna merah mengelilingi seluruh elemennya.
@@ -519,9 +519,9 @@ button{
 ```
 ### hasil
 #### before
-![](Asep/Ss7.png)
+![](Basis%20Data/Asep/Ss7.png)
 #### after
-![](Asep/Ss9.png)
+![](Basis%20Data/Asep/Ss9.png)
 ### kesimpulan
 Kesimpulan dari kode CSS `div { margin-left: 100px; }` adalah bahwa semua elemen `<img>` pada halaman web akan memiliki margin sebesar 100 piksel di sisi kanan.
 Dengan kode tersebut, setiap elemen `<button>` akan memiliki ruang kosong (margin) sebesar 100 piksel di sisi kiri, yang berarti elemen-elemen tersebut akan terpisah dengan elemen lain di sebelah kanannya sejauh 100 piksel. Ini akan memengaruhi tata letak (layout) dari elemen-elemen `<button>` tersebut dalam halaman web.
@@ -542,9 +542,9 @@ padding-left: 50px;
 ```
 ### hasil
 #### before
-![](Asep/Ss7.png)
+![](Basis%20Data/Asep/Ss7.png)
 #### after
-![](Asep/Ss10.png)
+![](Basis%20Data/Asep/Ss10.png)
 ### kesimpulan
 Kesimpulan dari kode CSS `button { padding-left: 50px; }` adalah bahwa semua elemen `<button>` pada halaman web akan memiliki padding sebesar 50 piksel di sisi kiri.
 Dengan kode tersebut, setiap elemen `<button>` akan memiliki ruang kosong 50 piksel di sisi kiri, yang berarti konten di dalam elemen tersebut akan tergeser ke kiri sejauh 50 piksel dari batas kiri elemen. Jadi, setiap elemen `<button>` akan memiliki padding sebesar 50 piksel di sisi kiri elemen.
@@ -601,7 +601,7 @@ img {
 }
 ```
 ## Hasil
-![q](Asep/Ss44.jpg)
+![q](Ss44.jpg)
 ## Kesimpulan
  - `body`:Warna latar belakang diatur menjadi ungu (`background-color: purple`).
 - `span`: Teks dalam elemen span berwarna putih (`color: white`).
@@ -631,9 +631,9 @@ button:hover{
 ```
 ### Hasil
 #### Before
-![a](Asep/Ss16.png)
+![a](Ss16.png)
 #### After
-![a](Asep/Ss17.png)
+![a](Ss17.png)
 ### Kesimpulan
 - `button:hover`: adalah pseudo-class selector yang menargetkan tombol (button) ketika pengguna mengarahkan kursor ke atasnya (hover) atau diklik. 
 - `background-color: red;`: Properti ini menetapkan warna latar belakang tombol menjadi merah ketika tombol sedang di-hover.
@@ -651,9 +651,9 @@ button:active{
 ```
 ### Hasil
 #### Before
-![a](Asep/Ss16.png)
+![a](Ss16.png)
 #### After
-![a](Asep/Ss18.png)
+![a](Ss18.png)
 ### Kesimpulan
 `button:active`: adalah pseudo-class selector yang menargetkan tombol (`button`) ketika tombol tersebut sedang dalam keadaan `active`, atau tombol sedang ditekan. 
 `color: yellow;`: Properti memberikan warna kuning pada teks ketika tombol sedang active atau tombol sedang ditekan. 
@@ -671,9 +671,9 @@ a:visited {
 ```
 ### Hasil
 #### Before
-![a](Asep/Ss19.png)
+![a](Ss19.png)
 #### After
-![a](Asep/Ss20.png)
+![a](Ss20.png)
 ### Kesimpulan
 Visited pseudo Class ini digunakan untuk memberikan gaya pada tampilan link yang sudah dikunjungi.
 ## Link
@@ -688,9 +688,9 @@ a:link {
 ```
 ### Hasil
 #### Before
-![a](Asep/Ss22.png)
+![a](Ss22.png)
 #### After
-![a](Asep/Ss21.png)
+![a](Ss21.png)
 ### Kesimpulan
 Jadi fungsi dari Pseudo Class link ini memberikan gaya pada tautan yang belum dikunjungi.
 # Transition
@@ -717,9 +717,9 @@ button {
 ```
 ## Hasil 
 ### Before
-![a](Asep/Ss23.png)
+![a](Ss23.png)
 ### After
-![a](Asep/Ss24.png)
+![a](Ss24.png)
 ## Kesimpulan
 Transition Property CSS yang digunakan untuk memberikan efek perubahan secara halus dalam sebuah elemen html.
 # Tantangan transition
@@ -786,9 +786,9 @@ img {
 ```
 ## Hasil
 ### Before
-![a](Asep/Ss52.png)
+![a](Ss52.png)
 ### After
-![a](Asep/Ss53.png)
+![a](Ss53.png)
 ## Kesimpulan 
 - `body`: Warna latar belakang diatur menjadi ungu (`background-color: purple`).
 - `span`: Teks dalam elemen span berwarna putih (`color: white`).
@@ -834,9 +834,9 @@ digunakan untuk mengubah tampilan suatu elemen, seperti memindahkannya, memutari
 ```
 ### Hasil
 #### Before
-![a](Asep/Ss25.png)
+![a](Ss25.png)
 #### After
-![a](Asep/Ss26.png)
+![a](Ss26.png)
 ### Kesimpulan
 Efek hover ini mengubah ukuran tombol dan warna saat kursor mouse ditempatkan di atasnya, memberikan interaksi visual yang menarik bagi pengguna. 
 ## ScaleX
@@ -870,9 +870,9 @@ Efek hover ini mengubah ukuran tombol dan warna saat kursor mouse ditempatkan di
 ```
 ### Hasil
 #### Before
-![a](Asep/Ss25.png)
+![a](Ss25.png)
 #### After
-![a](Asep/Ss27.png)
+![a](Ss27.png)
 ### Kesimpulan
 Efek ini memberikan umpan balik visual yang menarik dan responsif kepada pengguna, dengan perubahan warna, ukuran, dan bentuk ketika tombol di-hover. Dalam hal ini, tombol akan terlihat lebih ramping secara horizontal ketika di-hover karena transformasi skala X.
 ## Rotate
@@ -905,9 +905,9 @@ Efek ini memberikan umpan balik visual yang menarik dan responsif kepada penggun
 ```
 ### Hasil
 #### Before
-![a](Asep/Ss25.png)
+![a](Ss25.png)
 #### After
-![a](Asep/Ss28.png)
+![a](Ss28.png)
 ### Kesimpulan
 Dengan efek `hover` ini, tombol memberikan umpan balik visual yang menarik dengan perubahan warna, ukuran, dan rotasi ketika kursor mouse berada di atasnya. Perubahan rotasi 45 derajat menambah dimensi unik pada interaksi, sehingga tombol akan terlihat miring saat di-hover.
 ## SkewX
@@ -941,9 +941,9 @@ Dengan efek `hover` ini, tombol memberikan umpan balik visual yang menarik denga
 ```
 ### Hasil
 #### Before
-![a](Asep/Ss25.png)
+![a](Ss25.png)
 #### After
-![a](Asep/Ss29.png)
+![a](Ss29.png)
 ### Kesimpulan
 Efek hover ini menghasilkan umpan balik visual yang menarik karena perubahan warna, ukuran, dan bentuk tombol saat kursor mouse berada di atasnya. Perubahan `skewX(30deg)` memberikan tampilan miring pada tombol, sehingga tombol terlihat lebih miring atau terdistorsi ke samping.
 ## Skew
@@ -976,9 +976,9 @@ Efek hover ini menghasilkan umpan balik visual yang menarik karena perubahan war
 ```
 ### Hasil
 #### Before
-![a](Asep/Ss25.png)
+![a](Ss25.png)
 #### After
-![a](Asep/Ss30.png)
+![a](Ss30.png)
 ### Kesimpulan
 `hover` dapat menciptakan efek interaktif ketika pengguna berinteraksi dengan elemen pada halaman web. Dengan mengubah ukuran, warna, dan transformasi pada elemen tombol, kode ini memberikan umpan balik visual yang menarik bagi pengguna.
 
@@ -1012,9 +1012,9 @@ Efek hover ini menghasilkan umpan balik visual yang menarik karena perubahan war
 ```
 ### Hasil
 #### Before
-![a](Asep/Ss25.png)
+![a](Ss25.png)
 #### After
-![a](Asep/Ss31.png)
+![a](Ss31.png)
 ### Kesimpulan
 `hover` dapat digunakan untuk mengubah ukuran, warna, dan posisi elemen ketika pengguna mengarahkan kursor ke elemen tersebut. Efek hover dalam kode ini menghasilkan umpan balik visual yang jelas dan menarik, serta menunjukkan efek terjemahan (perpindahan) yang memindahkan tombol ke lokasi baru saat kursor diarahkan ke atasnya.
 
@@ -1049,9 +1049,9 @@ Efek hover ini menghasilkan umpan balik visual yang menarik karena perubahan war
 ```
 ### Hasil
 #### Before
-![a](Asep/Ss25.png)
+![a](Ss25.png)
 #### After
-![a](Asep/Ss32.png)
+![a](Ss32.png)
 ### kesimpulan
 `hover` bisa digunakan untuk mengubah atribut elemen seperti ukuran, warna, dan transformasi menggunakan transformasi matriks. Dengan efek ini, tombol memberikan umpan balik visual dan efek animasi yang kompleks saat pengguna mengarahkannya.
 # Flex Box
@@ -1104,7 +1104,7 @@ Beberapa contoh property value nya :
 ```
 
 #### Hasil
-![a](Asep/Ss33.png)
+![a](Ss33.png)
 
 #### Kesimpulan
 Flex direction berfungsi ketika kita ingin mengatur tataletak item yang berada didalam container.
@@ -1150,7 +1150,7 @@ Beberapa Property Value nya :
 </html>
 ```
 #### Hasil
-![a](Asep/Ss34.png)
+![a](Ss34.png)
 #### Kesimpulan
 Flex wrap dominan digunakan ketika item yang berada dalam 1 baris sudah tidak cukup di tampung oleh container, maka item selanjutnya akan membuat baris baru.
 
@@ -1194,7 +1194,7 @@ Beberapa contoh Property Value nya :
 </html>
 ```
 #### Hasil
-![a](Asep/Ss35.png)
+![a](Ss35.png)
 
 #### Kesimpulan
 Align items digunakan untuk mengatur tataletak suatu elemen secara vertikal
@@ -1243,7 +1243,7 @@ Beberapa contoh property value nya :
 </html>
 ```
 #### Hasil
-![a](Asep/Ss36.png)
+![a](Ss36.png)
 #### Kesimpulan
 Justify content digunakan untuk mengatur jarak antar elemen secara horizontal atau baris. 
 
@@ -1295,7 +1295,7 @@ Beberapa Property Value nya :
 ```
 
 #### Hasil
-![a](Asep/Ss37.png)
+![a](Ss37.png)
 #### Kesimpulan
 Align content digunakan untuk mengatur jarak antar elemen secara vertikal
 ## Flex Item
@@ -1342,7 +1342,7 @@ Align content digunakan untuk mengatur jarak antar elemen secara vertikal
 </html>
 ```
 #### Hasil
-![a](Asep/Ss38.png)
+![a](Ss38.png)
 #### Kesimpulan
 `Order` digunakan ketika kita ingin mengatur tataletak flex item dalam flex container. 
 
@@ -1402,7 +1402,7 @@ Tidak perlu memberikan width pada itemnya, jika kita berikan maka Flex-Grow tida
 </html>
 ```
 #### Hasil
-![a](Asep/Ss39.png)
+![a](Ss39.png)
 #### Kesimpulan
 `Flex-Grow` digunakan ketika kita ingin memperluas salah satu flex item dalam sebuah flex container.
 ### FLEX-SHRINK
@@ -1448,7 +1448,7 @@ Tidak perlu memberikan width pada itemnya, jika kita berikan maka Flex-Grow tida
 </html>
 ```
 #### Hasil
-![a](Asep/Ss40.png)
+![a](Ss40.png)
 #### Kesimpulan
 Flex-shrink mengatur ukuran item ketika ruang tidak cukup.
 ### FLEX-BASIS
@@ -1498,7 +1498,7 @@ Flex-shrink mengatur ukuran item ketika ruang tidak cukup.
 </html>
 ```
 #### Hasil
-![a](Asep/Ss41.png)
+![a](Ss41.png)
 #### Kesimpulan
 `flex-basis` menentukan ukuran awal elemen sebelum fleksbox membagikan ruang yang tersisa.
 
@@ -1556,7 +1556,7 @@ Nilai yang umum digunakan untuk align-self adalah:
 </html>
 ```
 #### Hasil
-![a](Asep/Ss42.png)
+![a](Ss42.png)
 #### Kesimpulan
 `Align self` mengatur penempatan item secara vertikal
 
@@ -1593,7 +1593,7 @@ Properti flex memungkinkan Anda untuk secara singkat menentukan bagaimana elemen
 </html>
 ```
 #### Hasil
-![a](Asep/Ss43.png)
+![a](Ss43.png)
 #### Kesimpulan
 `Flex` merupakan gabungan dri `flex grow,flex shrink,flex basis`
 # Tantangan Flex Box
@@ -1660,7 +1660,7 @@ img {
 }
 ```
 ## Hasil
-![a](Asep/Ss52.png)
+![a](Ss52.png)
 ## Kesimpulan
 - `body`: Latar belakang diatur menjadi warna ungu (`Background-color: Purple`).
 - Kontainer Flex (`flex-container`): Kontainer ini menggunakan Flexbox untuk tata letak elemen-elemen di dalamnya.
@@ -1720,10 +1720,10 @@ img {
 ```
 ### Hasil
 #### Before
-![a](Asep/Ss46.png)
+![a](Ss46.png)
 
 #### After
-![a](Asep/Ss45.png)
+![a](Ss45.png)
 
 ### Kesimpulan
 memungkinkan pengguna untuk mengatur posisi elemen dengan properti top, right, bottom, atau left
@@ -1771,9 +1771,9 @@ memungkinkan pengguna untuk mengatur posisi elemen dengan properti top, right, b
 ```
 ### Hasil
 #### Before
-![a](Asep/Ss46.png)
+![a](Ss46.png)
 #### After
-![a](Asep/Ss47.png)
+![a](Ss47.png)
 ### Kesimpulan
  hanya berpengaruh pada elemen yang diatur, tidak akan berpengaruh pada posisi elemen lain.
 ## Position fixed
@@ -1816,9 +1816,9 @@ memungkinkan pengguna untuk mengatur posisi elemen dengan properti top, right, b
 ```
 ### Hasil
 #### Before
-![a](Asep/Ss48.png)
+![a](Ss48.png)
 #### After 
-![a](Asep/Ss49.png)
+![a](Ss49.png)
 ### Kesimpulan
 Untuk menetapkan posisi suatu elemen
 ## Position sticky
@@ -1850,9 +1850,9 @@ Posisi sticky adalah cara efektif untuk mengubah posisi elemen dengan kecil atau
 ```
 ### Hasil
 #### Before
-![q](Asep/Ss50.png)
+![q](Ss50.png)
 #### After
-![q](Asep/Ss51.png)
+![q](Ss51.png)
 ### Kesimpulan
 `position: sticky` akan bergulir seperti normal hingga mencapai titik tertentu
 # Tantangan Position
@@ -1961,7 +1961,7 @@ Posisi sticky adalah cara efektif untuk mengubah posisi elemen dengan kecil atau
 }
 ```
 ## Hasil
-![a](Asep/Ss54.png)
+![a](Ss54.png)
 ## Analisis
 - container Position: Posisi static adalah posisi default di CSS, yang berarti elemen akan muncul sesuai dengan alur dokumen normal.
 - Display: flex mengaktifkan model layout flexbox, memungkinkan elemen anak untuk diatur dalam arah tertentu dan memberikan fleksibilitas dalam tata letak.
@@ -1986,7 +1986,7 @@ elemen utama (container), kotak konten (box), dan berbagai bagian dalam box (sep
 ## Pengenalan Responsive Web Design
 Responsive web design atau desain web responsif adalah sebuah teknik atau metode bagi web designer untuk membuat suatu layout website yang dapat menyesuaikan diri sesuai dengan ukuran layar pengguna. Baik dari ukuran huruf, user interface, gambar dan tata letak akan menyesuaikan dengan lebar layar dan resolusi device yang digunakan. 
 Selain dapat memengaruhi apa yang ditampilkan pada perangkat tertentu, ini juga untuk meningkatkan kenyamanan pengguna dalam mengunjungi suatu website.
-![a](Asep/Ss55.png)
+![a](Ss55.png)
 ## Mengapa perlu CSS Responsive?
 Pernahkah Anda mengunjungi situs web di smartphone Anda dan halaman webnya berantakan atau teksnya terlalu kecil untuk dibaca? Ini artinya situs web tersebut belum responsif. Dengan memakai css responsif maka web kita memungkinkan tampil optimal di berbagai perangkat, mulai dari desktop, laptop, tablet, hingga smartphone. Berikut alasan beberapa alasan mengapa css responsif penting: 
 - **Tampilan yang Bagus di Semua Perangkat**
@@ -2052,9 +2052,9 @@ Saat mendesain website, mulailah dengan mempertimbangkan tampilan website pada p
 
 ## Implementasi CSS Responsif
 ### Sebelum Responsif
-![a](Asep/Ss56.png)
+![a](Ss56.png)
 ### Sesudah Responsif
-![a](Asep/Ss57.png)
+![a](Ss57.png)
 ### Kode
 #### HTML
 ```html

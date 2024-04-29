@@ -75,9 +75,9 @@ button {
 
 ### Hasil
 #### Before Hp
-![Max-width](Ss1.png)
+![Max-width](Eksplorasi%20CSS/AsetV/Ss1.png)
 #### After Hp
- ![Max-Width](Ss2.png)
+ ![Max-Width](Eksplorasi%20CSS/AsetV/Ss2.png)
 ## Min-width
 ### Penjelasan
 Properti `min-width` menetapkan lebar minimum untuk sebuah elemen. Elemen akan memiliki setidaknya lebar ini, bahkan jika konten di dalamnya tidak memerlukan itu.
@@ -135,9 +135,9 @@ Properti `max-height` menetapkan tinggi maksimum untuk sebuah elemen. Elemen tid
 ### Hasil
 
 #### Before Laptop 
-![Max-height](Ss5.png)
+![Max-height](Eksplorasi%20CSS/AsetV/Ss5.png)
 #### After Hp
-![Max-Width](Ss6.png)
+![Max-Width](Eksplorasi%20CSS/AsetV/Ss6.png)
 ## Min-height
 ### Penjelasan
 

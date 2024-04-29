@@ -68,7 +68,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "CSS/File CSS.md",
+                "file": "Basis Data/File CSS.md",
                 "mode": "source",
                 "source": false
               }
@@ -141,7 +141,7 @@
         "state": {
           "type": "backlink",
           "state": {
-            "file": "CSS/File CSS.md",
+            "file": "Basis Data/File CSS.md",
             "collapseAll": false,
             "extraContext": false,
             "sortOrder": "alphabetical",
@@ -158,7 +158,7 @@
         "state": {
           "type": "outgoing-link",
           "state": {
-            "file": "CSS/File CSS.md",
+            "file": "Basis Data/File CSS.md",
             "linksCollapsed": false,
             "unlinkedCollapsed": true
           }
@@ -170,7 +170,7 @@
         "state": {
           "type": "outline",
           "state": {
-            "file": "CSS/File CSS.md"
+            "file": "Basis Data/File CSS.md"
           }
         }
       }
@@ -188,10 +188,11 @@
       "notion-like-tables:Create loom": false
     }
   },
-  "active": "2c8a50e3c618f0eb",
+  "active": "87b768803dae14ca",
   "lastOpenFiles": [
+    "Css2",
     "Html belajar/Bootstrap Framework.md",
-    "CSS/File CSS.md",
+    "Basis Data/File CSS.md",
     "CSS/File CSS(1).md",
     "Apa.md",
     "Html belajar/SEMANTIC HTML.md",
@@ -199,17 +200,17 @@
     "Html belajar/Pertemuan_1.md",
     "Html belajar/CSS Responsive.md",
     "Tempat ss.md",
-    "CSS/Asep/Ss54.png",
-    "CSS/Asep/Ss53.png",
-    "CSS/Asep/Ss52.png",
-    "CSS/Asep/Ss50.png",
-    "CSS/Asep/Ss51.png",
-    "CSS/Asep/Ss49.png",
+    "Basis Data/Asep/Ss54.png",
+    "Basis Data/Asep/Ss53.png",
+    "Basis Data/Asep/Ss52.png",
+    "Basis Data/Asep/Ss50.png",
+    "Basis Data/Asep/Ss51.png",
+    "Basis Data/Asep/Ss49.png",
     "Screenshot_2024_0428_233337.png",
-    "CSS/Asep/Ss48.png",
+    "Basis Data/Asep/Ss48.png",
     "CSS/Pengenalan nayah CSS-1.md",
-    "CSS/Asep/Ss47.png",
-    "CSS/Asep/Ss45.png",
+    "Basis Data/Asep/Ss47.png",
+    "Basis Data/Asep/Ss45.png",
     "CSS/Pengenalan CSS.md",
     "Basis Data/Select Lanjutan.md",
     "Asep/Ss.md",
@@ -230,9 +231,8 @@
     "Basis Data/Untitled 1.loom",
     "asettt",
     "Pengantar web/Definisi HTML CSS DAN JAVASCRIPT gambar dibawah.md",
-    "CSS/Asep",
+    "Basis Data/Asep",
     "CSS",
-    "asettt/p_b_u_i_br_hr.jpg.md",
     "Ssdatabase",
     "Basis Data/Asett",
     "HTML/Asettt"
