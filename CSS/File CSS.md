@@ -313,9 +313,9 @@ p {
 ```
 ### Hasil
 #### Before
-![200](Basis%20Data/Asep/Ss1.png)
+![200](CSS/Asep/Ss1.png)
 #### After
-![200](Basis%20Data/Asep/Ss2.png)
+![200](CSS/Asep/Ss2.png)
 ### Kesimpulan
 `Background-color` adalah kode buat kita menambahkan warna biru pada latar belakang dari elemen html.
 ## Background-image
@@ -329,9 +329,9 @@ p {
 ```
 ### Hasil
 #### Before
-![200](Basis%20Data/Asep/Ss1.png)
+![200](CSS/Asep/Ss1.png)
 #### After
-![200](Basis%20Data/Asep/Ss3.png)
+![200](CSS/Asep/Ss3.png)
 ### Kesimpulan
 Program tersebut mencoba mengatur `background image` pada elemen paragraf (`<p>`) dengan menggunakan CSS.
 ## Background-repeat
@@ -348,9 +348,9 @@ p {
 ```
 ### Hasil
 #### Before
-![a](Basis%20Data/Asep/Ss1.png)
+![a](CSS/Asep/Ss1.png)
 #### After
-![a](Basis%20Data/Asep/Ss3.png)
+![a](CSS/Asep/Ss3.png)
 ### Kesimpulan
 program CSS tersebut adalah mengatur latar belakang halaman web dengan gambar "ml.jpg" tanpa pengulangan (`no-repeat`).
 ## Background-attachment
@@ -368,9 +368,9 @@ background-attachment: fixed;
 ```
 ### Hasil
 #### Before
-![a](Basis%20Data/Asep/Ss1.png)
+![a](CSS/Asep/Ss1.png)
 #### After
-![a](Basis%20Data/Asep/Ss4.png)
+![a](CSS/Asep/Ss4.png)
 ### Kesimpulan
 Kesimpulannya, latar belakang halaman web akan menampilkan gambar `ml.jpg` secara tetap pada seluruh ketinggian layar tanpa pengulangan.
 ## Background-size
@@ -386,9 +386,9 @@ p {
 ```
 ### Hasil
 #### Before
-![a](Basis%20Data/Asep/Ss1.png)
+![a](CSS/Asep/Ss1.png)
 #### After
-![a](Basis%20Data/Asep/Ss5.png)
+![a](CSS/Asep/Ss5.png)
 ### Kesimpulan
 Program tersebut mencoba mengatur `background-image` menggunakan `background-size: 70px 70px`pada elemen dan gambar akan di atur 70piksel x 70piksel.
 ## Background-position
@@ -410,9 +410,9 @@ P {
 ```
 ### Hasil
 #### Before
-![a](Basis%20Data/Asep/Ss5.png)
+![a](CSS/Asep/Ss5.png)
 #### After
-![a](Basis%20Data/Asep/Ss6.png)
+![a](CSS/Asep/Ss6.png)
 ### Kesimpulan
 Gambar tersebut tidak akan diulang-ulang (`no-repeat`) dan akan diatur agar berukuran 70 piksel x 70 piksel (`background-size`). Selain itu, gambar akan diposisikan di tengah-tengah halaman (`background-position: center`).
 # Font
@@ -497,9 +497,9 @@ border-color: red;
 ```
 ### hasil
 #### before
-![](Basis%20Data/Asep/Ss7.png)
+![](CSS/Asep/Ss7.png)
 #### after
-![](Basis%20Data/Asep/Ss8.png)
+![](CSS/Asep/Ss8.png)
 ### kesimpulan
 kesimpulan kode tersebut `div { border-color: red; }` adalah bahwa semua elemen `<div>` pada halaman web akan memiliki border dengan warna merah.
 Dengan kode tersebut, setiap elemen `<div>` akan memiliki border dengan lebar default (biasanya 1 piksel), gaya default (biasanya solid), namun warna bordernya akan diatur menjadi merah. Ini berarti elemen `<div>` akan memiliki garis pinggiran berwarna merah mengelilingi seluruh elemennya.
@@ -519,9 +519,9 @@ button{
 ```
 ### hasil
 #### before
-![](Basis%20Data/Asep/Ss7.png)
+![](CSS/Asep/Ss7.png)
 #### after
-![](Basis%20Data/Asep/Ss9.png)
+![](CSS/Asep/Ss9.png)
 ### kesimpulan
 Kesimpulan dari kode CSS `div { margin-left: 100px; }` adalah bahwa semua elemen `<img>` pada halaman web akan memiliki margin sebesar 100 piksel di sisi kanan.
 Dengan kode tersebut, setiap elemen `<button>` akan memiliki ruang kosong (margin) sebesar 100 piksel di sisi kiri, yang berarti elemen-elemen tersebut akan terpisah dengan elemen lain di sebelah kanannya sejauh 100 piksel. Ini akan memengaruhi tata letak (layout) dari elemen-elemen `<button>` tersebut dalam halaman web.
@@ -542,9 +542,9 @@ padding-left: 50px;
 ```
 ### hasil
 #### before
-![](Basis%20Data/Asep/Ss7.png)
+![](CSS/Asep/Ss7.png)
 #### after
-![](Basis%20Data/Asep/Ss10.png)
+![](CSS/Asep/Ss10.png)
 ### kesimpulan
 Kesimpulan dari kode CSS `button { padding-left: 50px; }` adalah bahwa semua elemen `<button>` pada halaman web akan memiliki padding sebesar 50 piksel di sisi kiri.
 Dengan kode tersebut, setiap elemen `<button>` akan memiliki ruang kosong 50 piksel di sisi kiri, yang berarti konten di dalam elemen tersebut akan tergeser ke kiri sejauh 50 piksel dari batas kiri elemen. Jadi, setiap elemen `<button>` akan memiliki padding sebesar 50 piksel di sisi kiri elemen.
