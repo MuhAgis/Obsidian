@@ -67,7 +67,7 @@ background-color dari elemen HTML akan diubah menjadi warna `#001A54`.
 ## Color
 
 ### Before
-![150](Before.png)
+![150](Asep/Before.png)
 ### After
 ![150](Color.png)
 ### Penjelasan
