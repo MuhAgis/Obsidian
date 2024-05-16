@@ -37,7 +37,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "CSS/File CSS.md",
+                "file": "Apa.md",
                 "mode": "source",
                 "source": false
               }
@@ -128,7 +128,7 @@
         "state": {
           "type": "backlink",
           "state": {
-            "file": "CSS/File CSS.md",
+            "file": "Apa.md",
             "collapseAll": false,
             "extraContext": false,
             "sortOrder": "alphabetical",
@@ -145,7 +145,7 @@
         "state": {
           "type": "outgoing-link",
           "state": {
-            "file": "CSS/File CSS.md",
+            "file": "Apa.md",
             "linksCollapsed": false,
             "unlinkedCollapsed": true
           }
@@ -157,7 +157,7 @@
         "state": {
           "type": "outline",
           "state": {
-            "file": "CSS/File CSS.md"
+            "file": "Apa.md"
           }
         }
       }
@@ -177,8 +177,8 @@
   },
   "active": "d9a6d4062d5592db",
   "lastOpenFiles": [
-    "Html belajar/Bootstrap Framework.md",
     "CSS/File CSS.md",
+    "Html belajar/Bootstrap Framework.md",
     "Basis Data/Select Lanjutan.md",
     "Tempat ss.md",
     "Basis Data/Asett/L.png",
