@@ -44,12 +44,12 @@
 ![[Ss52.png]]
 ![[Ss53.png]]
 ![[Ss54.png]]
-
-
-
-
-
-
+![[14.png]]
+![[15.png]]
+![[16.png]]
+![[Basis Data/Asett/Ss7.png]]
+![[Basis Data/Asett/Ss8.png]]
+![[L.png]]
 
 
 

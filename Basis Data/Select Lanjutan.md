@@ -9,7 +9,7 @@ select * from nama_table where kolom1="nilai_kolom1" AND kolom2="nama_kolom2";
 select * from mobil where warna="Hitam" AND pemilik="Ibrahim";
 ```
 ### Hasil
-![a](asett/and.png)
+![a](Asett/And.png)
 ### Analisis
 - `SELECT *`: Bagian kueri ini menentukan bahwa Anda ingin mengambil semua kolom dari tabel.
 - `FROM mobil`: Ini menunjukkan bahwa Anda menanyakan tabel "mobil".
@@ -26,7 +26,7 @@ select * from nama_table where kolom1="nilai_kolom1" OR kolom2="nilai_kolom2";
 select * from mobil where warna="Hitam" OR pemilik="Ibrahim";
 ```
 ### Hasil
-![a](asett/or.png)
+![a](Asett/Or.png)
 ### Analisis
 - Kolom `"warna"` memiliki nilai `"Hitam"`.
 - Kolom `"pemilik"` memiliki nilai `"Ibrahim"`.
@@ -43,7 +43,7 @@ select * from nama_table where nama_kolom between nilai1 AND nilai2;
 select * from mobil where harga_rental between 100000 AND 150000;
 ```
 ### Hasil
-![a](asett/between.png)
+![a](Asett/Between.png)
 ### Analisis
 - `SELECT` : Ini merupakan bagian dari perintah SELECT yang digunakan untuk menentukan kolom mana yang ingin Anda ambil dari tabel. Dalam hal ini, tanda _""_ digunakan untuk mengambil semua kolom yang ada di tabel "mobil".
 - `FROM mobil` : Ini menentukan bahwa data akan diambil dari tabel bernama "mobil".
@@ -61,7 +61,7 @@ select * from nama_table where nama_kolom Not between nilai1 AND nilai2;
 select * from mobil where harga_rental not between 100000 AND 150000;
 ```
 ### Hasil
-![a](asett/nbetween.png)
+![a](Asett/Nbetween.png)
 ### Analisis
 - `SELECT `: Bagian ini menentukan bahwa Anda ingin mengambil semua kolom dari tabel yang ditentukan.
 - `FROM mobil`: Ini menunjukkan bahwa Anda menanyakan tabel bernama mobil.
@@ -78,7 +78,7 @@ SELECT * FROM nama_table WHERE nama_kolom <= nilai;
 SELECT * FROM mobil WHERE harga_rental <= 50000;
 ```
 ### Hasil
-![a](asett/kecil.png)
+![a](Asett/Kecil.png)
 ### Analisis 
 - `SELECT *`: Bagian kueri ini digunakan untuk menentukan kolom yang ingin Anda ambil. Tanda bintang `(*)`adalah karakter wildcard yang mewakili semua kolom dalam tabel "mobil".
 - `FROM mobil`: Menentukan tabel tempat Anda ingin mengambil data, dalam hal ini, tabel "mobil".
@@ -95,7 +95,7 @@ SELECT * FROM nama_table WHERE nama_kolom >= nilai;
 SELECT * FROM mobil WHERE harga_rental >= 50000;
 ```
 ### Hasil
-![a](asett/besar.png)
+![a](Asett/Besar.png)
 ### Analisis
 - `SELECT` digunakan untuk memilih kolom atau data yang ingin ditampilkan dalam hasil query.
 - Tanda bintang `('*')`  setelah kata kunci SELECT menunjukkan bahwa semua kolom dalam tabel "mobil" akan ditampilkan dalam hasil query.
@@ -114,7 +114,7 @@ select * from nama_table where nama_kolom <> 50000;
 select * from mobil where harga_rental <> 50000;
 ```
 ### Hasil
-![a](asett/kecil_besar.png)
+![a](Asett/Kecil_besar.png)
 ### Analisis 
 - `SELECT` : Ini menentukan bahwa Anda ingin memilih semua kolom dari tabel.
 - `FROM mobil` : Ini menentukan nama tabel "mobil" dari mana Anda ingin mengambil datanya.
@@ -132,7 +132,7 @@ select nama_kolom from nama_table where nama_kolom="nilai_kolom";
 select pemilik from mobil where no_plat="DD 2650 XY";
 ```
 ### Hasil
-![a](asett/tantangan.png)
+![a](Asett/Tantangan.png)
 ### Analisis
 - `SELECT pemilik`: Bagian query ini menunjukkan bahwa Anda ingin mengambil nilai dari kolom bernama "pemilik" di tabel yang ditentukan.
 - `FROM mobil`: Ini menentukan tabel tempat ingin mengambil data, dalam hal ini, tabel bernama "mobil."
@@ -469,24 +469,44 @@ select * from mobil ORDER BY peminjam  desc;
 - Data akan diurutkan berdasarkan kolom `peminjam` secara menurun (descending order). Artinya, data akan disusun dari nilai `peminjam` terbesar ke terkecil.
 - Kesimpulannya, hasil query akan mengembalikan semua baris dari tabel `mobil` dengan urutan berdasarkan kolom `peminjam` dari nilai terbesar ke terkecil.
 ## Membatasi data yang tampil
-### Struktur 
+### Struktur
+```sql
+SELECT * FROM [nama_tabel]    WHERE [nama_kolom] = [nilai] ORDER BY         [nama_kolom] ASC LIMIT [nilai];
+```
 ### Contoh
+
+```sql
+SELECT * FROM mobil 
+WHERE warna = 'Hitam' ORDER BY
+harga_rental ASC LIMIT 2;
+```
 ### Hasil
+![](Asett/L.png)
 ### Analisis
+- `SELECT * FROM : `Merupakan query awal untuk menampilkan sebuah tabel yang didalamnya berisikan kolom, di mana kolom tersebut menampung sebuah data.
+- `mobil` nama dari tabel yang ingin kita tampilkan data-data nya.
+- `WHERE warna = 'Hitam' `Memilih hanya baris-baris di mana nilai kolom warna adalah `'Hitam'.`
+- `ORDER BY harga_rental ASC` Mengurutkan baris-baris tersebut berdasarkan kolom harga_rental secara menaik (dari harga rental terendah ke tertinggi).
+- `LIMIT 2 `Membatasi hasil query untuk hanya menampilkan 2 baris pertama yang memenuhi kondisi warna hitam dan diurutkan berdasarkan harga rental.
 ### Kesimpulan
+Perintah SQL tersebut mengambil data `mobil` berwarna `hitam` dengan `harga_rental` terendah, hanya menampilkan 2 hasil teratas.
 # DISTINCT
 ## DISTINCT
 ### Struktur 
 ```sql
 select DISTINCT(nama_kolom) from nama_table;
-[[[[]]]]```
+```
 ### Contoh
 ```sql
 select DISTINCT(pemilik) from mobil;
 ```
 ### Hasil
-![a](Asett/D1.png)
-Z
+![](Asett/Ss7.png)
+### Analisis
+- `SELECT DISTINCT (harga_rental)` : Ini adalah klausul SELECT yang digunakan untuk memilih kolom "harga_rental". Kata kunci "DISTINCT" digunakan untuk mengambil nilai unik dari kolom tersebut.
+- `FROM mobil` : Ini adalah klausul FROM yang menentukan tabel yang digunakan dalam query, yaitu "mobil".
+### Kesimpulan
+Kesimpulannya, hasil query akan mengembalikan nilai unik dari kolom "harga_rental" dari tabel "mobil", diurutkan dari nilai terbesar ke terkecil. Ini akan memberikan daftar harga rental yang berbeda yang tersedia untuk mobil, tanpa duplikasi, dalam urutan terurut.
 ## DISTINCT+ORDER BY
 ### Struktur 
 ```sql
@@ -497,8 +517,19 @@ select DISTINCT(nama_kolom) from nama_table ORDER BY nama_kolom desc;
 select DISTINCT(harga_rental) from mobil ORDER BY harga_rental desc;
 ```
 ### Hasil
-![a](Asett/D2.png)
-Z
+![](Asett/Ss8.png)
+### Analisis
+- `SELECT DISTINCT(harga_rental)`: Bagian ini meminta data yang unik dari kolom `harga_rental `dalam tabel `mobil`. Artinya, jika ada nilai yang duplikat, hanya satu nilai yang akan diambil untuk setiap set nilai yang sama. Ini digunakan untuk memastikan bahwa hasil query ini hanya menampilkan nilai-nilai unik.
+- `FROM mobil`: Bagian ini menentukan tabel dari mana data diambil. Dalam hal ini, data diambil dari tabel bernama `mobil`.
+- `ORDER BY harga_rental DESC`: Bagian ini mengatur urutan hasil query berdasarkan kolom harga_rental dalam urutan menurun (dari yang terbesar ke yang terkecil). Dengan kata lain, hasilnya akan diurutkan sehingga nilai terbesar akan berada di bagian atas.
+1. Mengidentifikasi Harga Rental Tertinggi:
+- Dengan mengurutkan dalam urutan menurun, kita dapat dengan cepat mengidentifikasi harga rental tertinggi di dalam dataset.
+2. Mengidentifikasi Rentang Harga Rental:
+- Dengan melihat daftar harga yang unik, kita bisa mengetahui variasi harga rental dan rentang dari tertinggi ke terendah.
+3. Analisis Harga Rental Unik:
+- Karena menggunakan DISTINCT, query ini bisa membantu menemukan harga rental yang unik tanpa pengulangan, memberikan gambaran tentang berapa banyak variasi harga yang tersedia dalam tabel mobil.
+### Kesimpulan
+query ini berguna untuk analisis harga rental yang unik dan untuk memahami rentang harga dalam tabel `mobil`, yang dapat digunakan untuk berbagai tujuan, seperti perbandingan harga, analisis pasar, atau pengambilan keputusan bisnis.
 # CONCAT,CONCAT_WA,AS
 ## Menggabungkan kolom tanpa pemisah
 ### Struktur 
@@ -667,6 +698,7 @@ Dengan membuat view dapat membatasi akses ke data sensitif atau kolom tertentu d
 Dengan membuat view untuk kueri yang sering digunakan, Anda dapat menghindari pengulangan kode SQL yang sama di beberapa tempat dalam aplikasi atau prosedur penyimpanan.
 # AGREGASI
 ## SUM
+Perintah SUM digunakan untuk menghitung total dari nilai-nilai numerik dalam suatu kolom. Ini sering digunakan bersama dengan pernyataan SELECT untuk mengambil hasil agregasi dari data dalam tabel.
 ### Struktur 
 ```sql
 select SUM(nama_kolom) AS total
@@ -687,6 +719,7 @@ select SUM(harga_rental) from mobil;
 ### Kesimpulan
 Kesimpulan dari pernyataan SQL `SELECT SUM(harga_rental) FROM mobil;` adalah bahwa Anda ingin menghitung jumlah total `harga_rental` dari semua mobil yang ada dalam tabel `mobil`.
 ## Count
+Perintah COUNT digunakan untuk menghitung jumlah baris yang memenuhi suatu kondisi atau untuk menghitung jumlah baris dalam suatu tabel.
 ### Struktur 
 ```sql
 select Count(*) AS jumlah
@@ -724,6 +757,7 @@ Kesimpulan dari `SELECT COUNT(pemilik) FROM mobil;` adalah bahwa Anda ingin me
 **peminjam**
 Kesimpulan dari `SELECT COUNT(peminjam) FROM mobil;` adalah bahwa Anda ingin menghitung jumlah entri unik dalam kolom `peminjam` dari tabel `mobil`. Hasilnya akan memberikan jumlah peminjam mobil yang terdaftar dalam tabel. 
 ## Min 
+Fungsi MIN digunakan menemukan nilai minimum dalam suatu kolom. Fungsi ini berguna ketika kita ingin mengetahui nilai terkecil dalam satu set data.
 ### Struktur 
 ```sql
 select Min(nama_kolom) AS nilai_minimum
@@ -737,11 +771,17 @@ select Min(harga_rental) AS minimal from mobil;
 ### Hasil
 ![a](Asett/Min.png)
 ### Analisis
+- `SELECT`: Menunjukkan bahwa ingin mengambil data dari database.
+- `MIN(harga_rental)`: Menghitung nilai minimum kolom `harga_rental`.
+- `AS MINIMAL`: Menetapkan alias `MINIMAL` pada hasil fungsi `MIN(harga_rental)`.
+- `FROM mobil`: Menentukan tabel `mobil`untuk mengambil data.
 ### Kesimpulan
+Kesimpulan dari `SELECT MIN(harga_rental) AS MINIMAL FROM mobil;` adalah bahwa Anda ingin mencari nilai terkecil (minimum) dari kolom "harga_rental" dalam tabel "mobil".
 ## Max
+Fungsi MAX digunakan untuk menemukan nilai maksimum dari suatu kolom. Fungsi ini berguna ketika kita ingin mengetahui nilai terbesar dalam satu set data.
 ### Struktur 
 ```sql
-select Min(nama_kolom) AS nilai_maksimal
+select Max(nama_kolom) AS nilai_maksimal
 From nama_table
 Where kondisi_opsional;
 ```
@@ -752,11 +792,16 @@ select Max(harga_rental) AS maximal from mobil;
 ### Hasil
 ![a](Asett/Max.png)
 ### Analisis
+- `SELECT`: Digunakan untuk mengambil data dari database.
+- `MAX(harga_rental)`: Fungsi ini menghitung nilai maksimum kolom 'harga_rental' dan mengambil nilai tertinggi yang ada di kolom itu.
+- `AS MAXIMAL`: Mengubah nama hasil perhitungan `MAX(harga_rental)`menjadi 'MAXIMAL'. Itu adalah alias untuk hasilnya.
 ### Kesimpulan
+Kesimpulan dari pernyataan SQL ini adalah bahwa Anda ingin mencari nilai terbesar (maksimum) dari kolom `"harga_rental" dalam tabel "mobil"` . Hasilnya akan disajikan dengan menggunakan alias "MAXIMAL" dalam kolom hasil.
 ## AVG
+Fungsi agregasi yang digunakan untuk menghitung nilai rata-rata 
 ### Struktur 
 ```sql
-select Min(nama_kolom) AS nilai_rata-rata
+select AVG(nama_kolom) AS nilai_rata-rata
 From nama_table
 Where kondisi_opsional;
 ```
@@ -767,4 +812,8 @@ select AVG(harga_rental) AS RATA_RATA from mobil;
 ### Hasil
 ![a](Asett/Rata.png)
 ### Analisis
+- `SELECT AVG(harga_rental)`: Ini adalah perintah SQL yang digunakan untuk mengambil nilai rata-rata dari kolom `harga_rental`. `AVG()` adalah fungsi agregat yang digunakan untuk menghitung rata-rata dari sekumpulan nilai.
+- `AS RATA_RATA`: Menggunakan kata kunci `AS` untuk memberi nama pada hasil rata-rata. Dalam hal ini, hasil rata-rata dari `harga_rental` akan dinamai `RATA_RATA`.
+- `FROM mobil`: Ini adalah bagian dari perintah SQL yang menunjukkan bahwa data diambil dari tabel bernama `mobil`. Jadi, perintah ini mengambil nilai rata-rata dari kolom `harga_rental` dari tabel `mobil`.
 ### Kesimpulan
+Kesimpulan dari pernyataan SQL `SELECT AVG(harga_rental) AS RATA_RATA FROM mobil;` adalah bahwa Anda ingin menghitung nilai rata-rata (average) dari kolom "harga_rental" dalam tabel "mobil".
