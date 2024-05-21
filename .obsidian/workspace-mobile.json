@@ -32,12 +32,12 @@
             }
           },
           {
-            "id": "d9a6d4062d5592db",
+            "id": "6abf43fb98782f13",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Apa.md",
+                "file": "Eksplorasi CSS/Width dan height.md",
                 "mode": "source",
                 "source": false
               }
@@ -87,7 +87,7 @@
         "state": {
           "type": "search",
           "state": {
-            "query": "",
+            "query": "tag:#Kesimpulan",
             "matchingCase": false,
             "explainSearch": false,
             "collapseAll": false,
@@ -128,7 +128,7 @@
         "state": {
           "type": "backlink",
           "state": {
-            "file": "Apa.md",
+            "file": "Eksplorasi CSS/Width dan height.md",
             "collapseAll": false,
             "extraContext": false,
             "sortOrder": "alphabetical",
@@ -145,7 +145,7 @@
         "state": {
           "type": "outgoing-link",
           "state": {
-            "file": "Apa.md",
+            "file": "Eksplorasi CSS/Width dan height.md",
             "linksCollapsed": false,
             "unlinkedCollapsed": true
           }
@@ -157,7 +157,7 @@
         "state": {
           "type": "outline",
           "state": {
-            "file": "Apa.md"
+            "file": "Eksplorasi CSS/Width dan height.md"
           }
         }
       }
@@ -175,23 +175,31 @@
       "notion-like-tables:Create loom": false
     }
   },
-  "active": "d9a6d4062d5592db",
+  "active": "6abf43fb98782f13",
   "lastOpenFiles": [
+    "Tempat ss.md",
+    "Eksplorasi CSS/Width dan height.md",
+    "Eksplorasi CSS/AsetV/Ss12.jpg",
+    "Eksplorasi CSS/AsetV/Ss11.jpg",
+    "Eksplorasi CSS/AsetV/1.png",
+    "Basis Data/Alterr.md",
+    "Basis Data/Asett/Ss11.png",
+    "Basis Data/Asett/Ss10.png",
+    "Basis Data/Asett/Ss9.png",
+    "Apa.md",
+    "Basis Data/ALTER.md",
+    "Basis Data/Untitled.md",
+    "Html belajar/Select Lanjutan-1.md",
+    "Basis Data/Pengenalan Basis Data.md",
+    "Html belajar/SELECT LANJUTAN.md",
+    "Eksplorasi CSS/AsetV/Ss10.png",
+    "Eksplorasi CSS/AsetV/Ss9.png",
+    "Eksplorasi CSS/AsetV/Ss8.png",
+    "Eksplorasi CSS/AsetV/Ss7.png",
+    "Basis Data/Catatan Basis Data.md",
     "CSS/File CSS.md",
     "Html belajar/Bootstrap Framework.md",
     "Basis Data/Select Lanjutan.md",
-    "Tempat ss.md",
-    "Basis Data/Asett/L.png",
-    "Basis Data/Asett/Ss8.png",
-    "Basis Data/Asett/Ss7.png",
-    "Html belajar/SELECT LANJUTAN.md",
-    "CSS/assets/bf-16.png",
-    "CSS/assets/laravel-7.png",
-    "CSS/assets/btc-95.png",
-    "CSS/assets/btc-94.png",
-    "CSS/assets/btc-93.png",
-    "CSS/assets/btc-92.png",
-    "CSS/assets/btc-91.png",
     "CSS/assets",
     "PhpMyAdmin/Catatan PhpMyAdmin.md",
     "Basis Data/PhpMyAdmin.md",
@@ -203,10 +211,8 @@
     "PRAKTIKUM 5/Aset",
     "PRAKTIKUM 5",
     "PRATIKUM 5",
-    "Apa.md",
     "PhpMyAdmin/AsetPMA",
     "PhpMyAdmin",
-    "Basis Data/Catatan Basis Data.md",
     "PHP/Catatan PHP.md",
     "PHP",
     "Asep/Ss.md",
@@ -215,12 +221,6 @@
     "Html belajar/SEMANTIC HTML.md",
     "Html belajar/Pertemuan_1.md",
     "Html belajar/CSS Responsive.md",
-    "CSS/Pengenalan nayah CSS-1.md",
-    "CSS/File CSS..md",
-    "Eksplorasi CSS/Width dan height.md",
-    "Eksplorasi CSS/Width dan height(1).md",
-    "HTML/Catatan HTML.md",
-    "Basis Data/ALTER.md",
-    "Basis Data/Pengenalan Basis Data.md"
+    "CSS/Pengenalan nayah CSS-1.md"
   ]
 }

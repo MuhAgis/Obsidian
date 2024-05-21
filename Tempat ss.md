@@ -50,11 +50,11 @@
 ![[Basis Data/Asett/Ss7.png]]
 ![[Basis Data/Asett/Ss8.png]]
 ![[L.png]]
-
-
-
-
-
+![[Basis Data/Asett/Ss9.png]]
+![[Basis Data/Asett/Ss10.png]]
+![[Basis Data/Asett/Ss11.png]]
+![[Ss11.jpg]]
+![[Ss12.jpg]]
 
 
 
