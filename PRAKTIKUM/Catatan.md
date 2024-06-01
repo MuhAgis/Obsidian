@@ -1,7 +1,7 @@
 
 
-
-# Tabel Pegawai 
+# PRAKTIKUM 5
+## Tabel Pegawai 
 ![hasil](Aset/Pegawai.jpg)
 
 
@@ -48,20 +48,20 @@ select COUNT(NIP) AS jumlahpegawai
 
 ## Hasil
 
-![Praktikum](2.jpg)
+![Praktikum](Aset/2.jpg)
 
 ## Analisis 
 
- -Select = untuk memilih kolom mana saja yang ingin dipilih untuk dihitung.
- -COUNT(NIP) = untuk menghitung jumlah barisan data  yang mempunyai data dari kolom yang dipilih.
- Nip adalah nama kolom yang dipilih untuk dihitung.
- -AS = untuk mengubah nama dari suatu kolom sementara.
- -JumlahPegawai = nama sementara yang dipilih untuk kolom COUNT(NIP)
- -FROM Pegawai = dari tabel mana datanya akan digunakan.
- Pegawai adalah nama tabel yang dipilih untuk digunakan.
- -WHERE = merupakan kondisi yang harus dipenuhi agar datanya dapat dihitung dengan query COUNT(NIP).
- -(Nocab = 'C102')= adalah kondisi dari where yang harus dipenuhi, jadi hanya barisan data yang memiliki 'C102' di kolom "Nocab" yang bisa dihitung.
- -Hasilnya = di 9 barisan data yang ada pada tabel pegawai, kita ingin menghitung jumlah barisan data yang memiliki nilai 'C102' pada kolom "Nocab"nya dengan menggunakan COUNT. Jadi yang muncul adalah 3 barisan data. Kita juga ingin mengubah nama dari kolom hasil perintah COUNT secara sementara dengan perintah AS namanya adalah JumlahPegawai.
+ - `Select` = untuk memilih kolom mana saja yang ingin dipilih untuk dihitung.
+ - `COUNT(NIP)` = untuk menghitung jumlah barisan data  yang mempunyai data dari kolom yang dipilih.
+   adalah nama kolom yang dipilih untuk dihitung.
+ - `AS` = untuk mengubah nama dari suatu kolom sementara.
+ - `JumlahPegawai` = nama sementara yang dipilih untuk kolom COUNT(NIP)
+ - `FROM` Pegawai = dari tabel mana datanya akan digunakan.
+   Pegawai adalah nama tabel yang dipilih untuk digunakan.
+ - `WHERE` = merupakan kondisi yang harus dipenuhi agar datanya dapat dihitung dengan query COUNT(NIP).
+ - `(Nocab = 'C102')`= adalah kondisi dari where yang harus dipenuhi, jadi hanya barisan data yang memiliki 'C102' di kolom "Nocab" yang bisa dihitung.
+ - Hasilnya = di 9 barisan data yang ada pada tabel pegawai, kita ingin menghitung jumlah barisan data yang memiliki nilai 'C102' pada kolom "Nocab"nya dengan menggunakan COUNT. Jadi yang muncul adalah 3 barisan data. Kita juga ingin mengubah nama dari kolom hasil perintah COUNT secara sementara dengan perintah AS namanya adalah JumlahPegawai.
  
 # 3
 ## Contoh query
@@ -74,7 +74,7 @@ SELECT Nocab, COUNT(NIP) AS Jumlah_pegawai
 
 ## Hasil
 
-![Praktikum](3.jpg)
+![Praktikum](Aset/3.jpg)
 
 ## Analisis 
 
@@ -100,7 +100,7 @@ SELECT Nocab, COUNT(NIP) AS Jumlah_pegawai
 
 ## Hasil
 
-![Praktikum](4.jpg)
+![Praktikum](Aset/4.jpg)
 
 ## Analisis 
 
@@ -357,9 +357,8 @@ GROUP BY NoCab HAVING COUNT(NIP) >= 3;
 - `HAVING`= Kondisi yang harus dipenuhi oleh suatu kelompok data.
 - `(COUNT(NIP) >= 3`= Kondisi dari `HAVING` hanya hasil hitung kolom `NIP` yang lebih dari atau sama dengan 3 yang muncul.
 - **Hasilnya** = Seperti no.4, yang mempunyai hasil hitung lebih dari atau sama dengan 3 adalah `NoCab C102`. Jadi hanya itu yang dicari nilai maksimum dan minimumnya pada kolom `Gaji`.
---- 
+---- 
 
-# PRAKTIKUM 5
 ## 17
 ### Program
 ```MySql
