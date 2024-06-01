@@ -55,6 +55,55 @@
 ![[Basis Data/Asett/Ss11.png]]
 ![[Ss11.jpg]]
 ![[Ss12.jpg]]
+![[PHP/Asetphp/1.jpg]]
+![[PHP/Asetphp/2.jpg]]
+![[PHP/Asetphp/3.jpg]]
+![[IMG-20240531-WA0007.jpg]]
+![[PHP/Asetphp/4.jpg]]
+![[PHP/Asetphp/5.jpg]]
+![[PHP/Asetphp/6.jpg]]
+![[PHP/Asetphp/7.jpg]]
+![[PHP/Asetphp/8.jpg]]
+![[PHP/Asetphp/9.jpg]]
+![[IMG-20240531-WA0015.jpg]]
+![[PHP/Asetphp/10.jpg]]
+![[PHP/Asetphp/11.jpg]]
+![[PHP/Asetphp/12.jpg]]
+![[PHP/Asetphp/13.jpg]]
+![[14.jpg]]
+![[15.jpg]]
+![[IMG-20240508-WA0006.jpeg]]
+![[16.jpg]]
+![[PHP/Asetphp/4.jpg]]
+![[PHP/Asetphp/17.jpg]]
+![[PHP/Asetphp/18.jpg]]
+![[PHP/Asetphp/19.jpg]]
+![[20.jpg]]
+![[PHP/Asetmysql/1.jpg]]
+![[]]![[PHP/Asetmysql/2.jpg]]
+![[PHP/Asetmysql/3.jpg]]
+![[PHP/Asetmysql/4.jpg]]
+![[PHP/Asetmysql/5.jpg]]
+![[PHP/Asetmysql/6.jpg]]
+![[PHP/Asetmysql/7.jpg]]
+![[PHP/Asetmysql/8.jpg]]
+![[PHP/Asetmysql/9.jpg]]
+![[21.jpg]]
+![[22.jpg]]
+![[23.jpg]]
+![[24.jpg]]
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
