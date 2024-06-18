@@ -1,13 +1,13 @@
-![[Ss12.png]]
-![[Ss13.png]]
-![[Ss14.png]]
-![[Ss15.png]]
-![[Ss16.png]]
-![[Ss17.png]]
-![[Ss18.png]]
-![[Ss19.png]]
-![[Ss20.png]]
-![[Ss21.png]]
+![[CSS/Asep/Ss12.png]]
+![[CSS/Asep/Ss13.png]]
+![[CSS/Asep/Ss14.png]]
+![[CSS/Asep/Ss15.png]]
+![[CSS/Asep/Ss16.png]]
+![[CSS/Asep/Ss17.png]]
+![[CSS/Asep/Ss18.png]]
+![[CSS/Asep/Ss19.png]]
+![[CSS/Asep/Ss20.png]]
+![[CSS/Asep/Ss21.png]]
 ![[Ss22.png]]
 ![[Ss23.png]]
 ![[Ss24.png]]
@@ -92,18 +92,18 @@
 ![[22.jpg]]
 ![[23.jpg]]
 ![[24.jpg]]
-
-
-
-
-
-
-
-
-
-
-
-
+![[Basis Data/Asett/Ss12.png]]
+![[Basis Data/Asett/Ss13.png]]
+![[Basis Data/Asett/Ss14.png]]
+![[Basis Data/Asett/Ss15.png]]
+![[Basis Data/Asett/Ss16.png]]
+![[Basis Data/Asett/Ss17.png]]
+![[Basis Data/Asett/Ss15.png]]
+![[Basis Data/Asett/Ss16.]]
+![[Basis Data/Asett/Ss18.png]]
+![[Basis Data/Asett/Ss19.png]]
+![[Basis Data/Asett/Ss20.png]]
+![[Basis Data/Asett/Ss21.png]]
 
 
 

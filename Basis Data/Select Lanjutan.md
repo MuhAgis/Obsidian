@@ -125,20 +125,21 @@ Kesimpulan dari  `"SELECT * FROM mobil WHERE harga_rental <> 50000;"` adalah bah
 ## Tantangan 
 ### Struktur
 ```sql
-select nama_kolom from nama_table where nama_kolom="nilai_kolom";
+SELECT [nama_kolom] FROM [nama_tabel]
+WHERE [nama_kolom] = [nilai];
 ```
 ### Contoh
 ```sql
-select pemilik from mobil where no_plat="DD 2650 XY";
+SELECT nama FROM akun WHERE nama="Agis";
 ```
 ### Hasil
-![a](Asett/Tantangan.png)
+![a](Asett/Ss14.png)
 ### Analisis
-- `SELECT pemilik`: Bagian query ini menunjukkan bahwa Anda ingin mengambil nilai dari kolom bernama "pemilik" di tabel yang ditentukan.
-- `FROM mobil`: Ini menentukan tabel tempat ingin mengambil data, dalam hal ini, tabel bernama "mobil."
-- `WHERE no_plat="DD 2650 XY";`: Menunjukkan bahwa hanya ingin mengambil baris yang nilai di kolom "no_plat" sama dengan "DD 2650 XY".
+- `SELECT nama`: Menunjukkan bahwa kita ingin mengambil data dari kolom nama.
+- `FROM akun`: Menunjukkan bahwa tabel sumber data adalah tabel akun.
+- `WHERE nama="Agis"`: Menentukan kondisi bahwa hanya baris-baris di mana kolom nama berisi nilai "Agis" yang akan diambil.`
 ### Kesimpulan 
-Kesimpulan dari `SELECT` yang berikan yaitu mencari informasi pemilik mobil dengan nomor plat "DD 2650 XY" dari tabel mobil.
+Kesimpulan dari pernyataan adalah ingin memilih dan menampilkan nilai dari kolom `nama` dalam tabel `akun` yang memiliki nilai `nama` sama dengan `"Agis"`. Jika terdapat entri dalam tabel `akun` dengan `nama "Agis"`, maka nilai tersebut akan ditampilkan.
 # IN
 ## IN
 ### Struktur
@@ -817,3 +818,185 @@ select AVG(harga_rental) AS RATA_RATA from mobil;
 - `FROM mobil`: Ini adalah bagian dari perintah SQL yang menunjukkan bahwa data diambil dari tabel bernama `mobil`. Jadi, perintah ini mengambil nilai rata-rata dari kolom `harga_rental` dari tabel `mobil`.
 ### Kesimpulan
 Kesimpulan dari pernyataan SQL `SELECT AVG(harga_rental) AS RATA_RATA FROM mobil;` adalah bahwa Anda ingin menghitung nilai rata-rata (average) dari kolom "harga_rental" dalam tabel "mobil".
+# Tantangan 
+## 1. Tampilkan jumlah data mobil dan kelompok kan berdasarkan warnanya sesuai dengan tabel mobil kalian
+### Struktur 
+```sql
+select nama_data,
+COUNT(nama_data) AS nama_sementara 
+FROM nama_tabel GROUP BY nama_data;
+```
+### Query
+```sql
+select warna,
+COUNT(id_mobil) AS Jumlah_Data_Mobil
+FROM data_mobil GROUP BY warna;
+```
+### Hasil
+![](Asett/Ss15.png)
+### Analisis
+- `SELECT Klausa` : warna: Memilih kolom warna dari tabel `data_mobil`.
+- `COUNT(id_mobil) AS Jumlah_Data_Mobil`: Menghitung jumlah baris (mobil) untuk setiap warna unik dan memberi alias `Jumlah_Data_Mobil` pada hasil hitungan tersebut.
+- `FROM Klausa`: `data_mobil`: Menentukan tabel `data_mobil` sebagai sumber data.
+- `GROUP BY Klausa`: `warna`: Mengelompokkan hasil query berdasarkan nilai di kolom warna. Setiap nilai unik dalam kolom warna akan menjadi satu grup.
+### Kesimpulan
+1. Mengelompokkan Data Berdasarkan Warna: Data dalam tabel data_mobil dikelompokkan berdasarkan kolom warna.
+2. Menghitung Jumlah Mobil untuk Setiap Warna: Menggunakan fungsi COUNT(id_mobil) untuk menghitung jumlah mobil dalam setiap grup warna.
+3. Memberikan Hasil yang Jelas: Hasil dari query ini menunjukkan jumlah mobil untuk setiap warna dalam tabel data_mobil, dengan kolom Jumlah_Data_Mobil menunjukkan hitungan tersebut.
+## 2. Berdasarkan query ini tampilkan yang lebih besar dari 3 atau sama dengan 3 pemilik mobilnya
+### Struktur 
+```sql
+select nama_data,
+COUNT(nama_data) AS nama_sementara 
+From nama_tabel GROUP BY nama_data
+HAVING COUNT(nama_data) >= 3;
+```
+### Contoh
+```sql
+select pemilik,
+COUNT(id_mobil) AS jumlah_mobil
+From data_mobil GROUP BY pemilik
+HAVING COUNT(id_mobil) >= 3;
+```
+### Hasil
+![](Asett/Ss16.png)
+### Analisis
+- `SELECT Klausa pemilik`: Kolom ini dipilih dari tabel `data_mobil`. Kolom pemilik berisi data tentang pemilik mobil.
+- `COUNT(id_mobil) AS jumlah_mobil`: Fungsi agregat `COUNT` digunakan untuk menghitung jumlah baris dalam setiap grup yang memiliki pemilik yang sama. Hasil hitungan ini diberi alias `jumlah_mobil`, sehingga dalam hasil akhir, kolom ini akan diberi nama `jumlah_mobil`.
+- `FROM Klausa data_mobil`: Tabel ini merupakan sumber data dari query. Tabel ini diasumsikan berisi data mobil, termasuk kolom `pemilik` dan `id_mobil`.
+- `GROUP BY pemilik`: Pernyataan ini mengelompokkan baris-baris data berdasarkan nilai dalam kolom `pemilik`. Semua baris yang memiliki nilai `pemilik` yang sama akan dimasukkan ke dalam grup yang sama.
+- `HAVING COUNT(id_mobil) >= 3`: Pernyataan ini menyaring grup-grup yang terbentuk berdasarkan hasil agregat. Hanya grup yang memiliki jumlah baris (mobil) setidaknya 3 yang akan dimasukkan dalam hasil akhir. `HAVING` digunakan setelah pengelompokan data, berbeda dengan `WHERE` yang digunakan sebelum pengelompokan.
+### Kesimpulan 
+1. Mengelompokkan Data Berdasarkan `Pemilik`: Data dalam tabel `data_mobil` dikelompokkan berdasarkan kolom `pemilik`.
+2. Menghitung Jumlah Mobil untuk Setiap `Pemilik`: Menggunakan fungsi `COUNT(id_mobil)` untuk menghitung jumlah mobil dalam setiap grup `pemilik`. Hasil hitungan ini diberi alias `jumlah_mobil`.
+3. Menyaring Grup dengan Klausa `HAVING`: Menggunakan klausa `HAVING` untuk menyaring dan hanya menampilkan grup yang memiliki jumlah mobil (baris) setidaknya 3.
+## 3. Tampilkan semua pemilik jumlah mobilnya yang memiliki atau sama dengan 3 mobil
+### Struktur 
+```sql
+SELECT nama_data,
+COUNT(nama_data) AS nama_sementara 
+FROM nama_tabel GROUP BY nama_data;
+```
+### Contoh
+```sql
+SELECT pemilik, 
+COUNT(id_mobil) AS jumlah_mobil 
+FROM data_mobil GROUP BY pemilik
+```
+### Hasil
+![](Asett/Ss17.png)
+### Analisis
+- `SELECT` merupakan perintah SQL yang digunakan untuk memilih data dari database.
+- `pemilik` adalah nama kolom yang akan diambil dari tabel `data_mobil`.
+- `COUNT(id_mobil)` adalah fungsi yang digunakan untuk menghitung jumlah baris dalam kolom `id_mobil`.
+- `AS jumlah_mobil` memberikan alias pada hasil perhitungan `COUNT(id_mobil)` sehingga hasilnya akan diberi nama `jumlah_mobil`.
+- `FROM data_mobil` menentukan tabel `data_mobil` sebagai sumber data.
+- `GROUP BY` pemilik mengelompokkan data berdasarkan kolom pemilik dan melakukan perhitungan `COUNT` untuk setiap kelompok.
+### Kesimpulan 
+Perintah SQL ini akan menghasilkan daftar `pemilik` mobil beserta jumlah mobil yang dimiliki oleh masing-masing `pemilik`. Hasil query akan menampilkan dua kolom: `pemilik` yang berisi nama `pemilik`, dan `jumlah_mobil` yang berisi jumlah mobil yang dimiliki oleh pemilik tersebut. Perintah `GROUP BY` memastikan bahwa perhitungan `COUNT(id_mobil)` dilakukan untuk setiap pemilik secara terpisah.
+## 4. Berdasarkan query yang ada pada praktikum 5 bagian 7 tampilkan data pada tabel mobil dengan mengelompokkan berdasarkan pemiliknya. Hitung menggunakan SUM total pendapatan pemilik berdasarkan harga rental
+### Struktur 
+```sql
+select data 3,
+SUM(data 5) AS nama_sementara
+From nama_tabel GROUP BY data 3;
+```
+### Contoh
+```sql
+select pemilik,
+SUM(harga_rental) AS jumlah_pendapatan
+From data_mobil GROUP BY pemilik;
+```
+### Hasil
+![](Asett/Ss18.png)
+### Analisis
+- `SELECT` merupakan perintah yang digunakan untuk memilih data dari database.
+- `pemilik` adalah nama kolom yang akan diambil dari tabel `data_mobil`.
+- `SUM(harga_rental)` adalah fungsi yang digunakan untuk menghitung total nilai dari kolom `harga_rental`.
+- `AS jumlah_pendapatan` memberikan alias pada hasil perhitungan `SUM(harga_rental)` sehingga hasilnya akan diberi nama `jumlah_pendapatan`.
+- `FROM data_mobil` menentukan tabel `data_mobil` sebagai sumber data.
+- `GROUP BY pemilik` mengelompokkan data berdasarkan kolom pemilik dan melakukan perhitungan `SUM` untuk setiap kelompok.
+### Kesimpulan 
+Perintah SQL ini akan menghasilkan daftar `pemilik` mobil beserta total pendapatan dari harga rental yang mereka miliki. Hasil query akan menampilkan dua kolom: pemilik yang berisi nama `pemilik`, dan `jumlah_pendapatan` yang berisi total pendapatan dari harga rental mobil untuk setiap pemilik.
+## 5. Berdasarkan praktikum 5 query no 8 tampilkan jumlah pemasukan pemilik berdasarkan harga rental kelompokkan berdasarkan pemiliknya dan seleksi yang total pemasukannya atau harga rental mencapai lebih besar atau sama dengan 300k
+### Struktur 
+```sql
+select data_mobil,
+SUM(data_mobil) AS nama_sementara 
+From nama_tabel GROUP BY data_mobil
+HAVING SUM(data_mobil) >= 300000;
+```
+### Contoh
+```sql
+select pemilik,
+SUM(harga_rental) AS jumlah_pemasukan 
+From data_mobil GROUP BY pemilik
+HAVING SUM(harga_rental) >= 300000;
+```
+### Hasil
+![](Asett/Ss19.png)
+### Analisis
+- `SELECT` merupakan perintah yang digunakan untuk memilih data dari database.
+- `pemilik` adalah nama kolom yang akan diambil dari tabel `data_mobil`.
+- `SUM(harga_rental)` adalah fungsi yang digunakan untuk menghitung total nilai dari kolom `harga_rental`.
+- `AS jumlah_pemasukan` memberikan alias pada hasil perhitungan `SUM(harga_rental)` sehingga hasilnya akan diberi nama `jumlah_pemasukan`.
+- `FROM data_mobil` menentukan tabel `data_mobil` sebagai sumber data.
+- `GROUP BY pemilik` mengelompokkan data berdasarkan kolom pemilik dan melakukan perhitungan `SUM` untuk setiap kelompok.
+- `HAVING SUM(harga_rental) >= 300000` merupakan klausa yang digunakan untuk menyaring kelompok hasil perhitungan `SUM(harga_rental)` yang nilainya lebih besar atau sama dengan 300000.
+### Kesimpulan
+Perintah SQL ini akan menghasilkan daftar `pemilik` mobil beserta total pendapatan dari harga rental yang mereka miliki, tetapi hanya untuk pemilik yang total pendapatannya sama dengan atau lebih dari 300000. Hasil query akan menampilkan dua kolom: pemilik yang berisi nama `pemilik`, dan `jumlah_pemasukan` yang berisi total pendapatan dari harga rental mobil untuk setiap pemilik yang memenuhi kriteria `HAVING` tersebut.
+## 6. Berdasarkan praktikum 6 no 12 tampilkan rata rata pemasukan mobil kelompokkan berdasarkan pemiliknya 
+### Struktur 
+```sql
+select nama_data,
+AVG(nama_data) AS nama_sementara
+From nama_tabel GROUP BY nama_data;
+```
+### Contoh
+```sql
+select pemilik,
+AVG(harga_rental) AS rata_pemasukam
+From data_mobil GROUP BY pemilik;
+```
+### Hasil
+![](Asett/Ss20.png)
+### Analisis
+- `SELECT` merupakan perintah yang digunakan untuk memilih data dari database.
+- `pemilik` adalah nama kolom yang akan diambil dari tabel `data_mobil`. Kolom ini menyimpan informasi tentang pemilik mobil.
+- `AVG(harga_rental)` adalah fungsi yang digunakan untuk menghitung nilai rata-rata dari kolom `harga_rental`.
+- `AS rata_pemasukan` memberikan alias pada hasil perhitungan `AVG(harga_rental)` sehingga hasilnya akan diberi nama `rata_pemasukan`.
+- `FROM data_mobil` menentukan tabel `data_mobil` sebagai sumber data.
+- `GROUP BY` pemilik mengelompokkan data berdasarkan kolom pemilik dan melakukan perhitungan `AVG` untuk setiap kelompok.
+### Kesimpulan
+Perintah SQL ini akan menghasilkan daftar `pemilik` mobil beserta nilai rata-rata pendapatan dari harga rental yang mereka miliki. Hasil query akan menampilkan dua kolom: pemilik yang berisi nama `pemilik`, dan `rata_pemasukan` yang berisi rata-rata pendapatan dari harga rental mobil untuk setiap pemilik.
+## 7. Berdasarkan praktikum 5 no 16 tampilkan pemasukan terbesar dan pemasukan terkecil kelompokkan berdasarkan pemiliknya dan seleksi data pemilik yg tampil atau memiliki jumlah mobil lebih besar dari 1
+### Struktur 
+```sql
+select nama_data,
+MAX(nama_data) AS nama_sementara,
+MIN(nama_data) AS nama_sementara
+From nama_tabel GROUP BY nama_data
+HAVING COUNT(nama_data) >= 1;
+```
+### Contoh
+```sql
+select pemilik,
+MAX(harga_rental) AS Pemasukan_Terbesar ,
+MIN(harga_rental) AS pemasukan_terkecil
+From data_mobil GROUP BY pemilik 
+HAVING COUNT(harga_rental) > 1;
+```
+### Hasil
+![](Asett/Ss21.png)
+### Analisis
+- `SELECT` merupakan perintah yang digunakan untuk memilih data dari database.
+- `pemilik` adalah nama kolom yang akan diambil dari tabel `data_mobil`. Kolom ini menyimpan informasi tentang pemilik mobil.
+- `MAX(harga_rental)` adalah fungsi yang digunakan untuk menghitung nilai maksimum dari kolom `harga_rental`.
+- `AS Pemasukan_Terbesar` memberikan alias pada hasil perhitungan `MAX(harga_rental)` sehingga hasilnya akan diberi nama `Pemasukan_Terbesar`.
+- `MIN(harga_rental)` adalah fungsi yang digunakan untuk menghitung nilai minimum dari kolom `harga_rental`.
+- `AS pemasukan_terkecil` memberikan alias pada hasil perhitungan `MIN(harga_rental)` sehingga hasilnya akan diberi nama `pemasukan_terkecil`.
+- `FROM data_mobil` menentukan tabel `data_mobil` sebagai sumber data.
+- `GROUP BY pemilik` mengelompokkan data berdasarkan kolom `pemilik` dan melakukan perhitungan `MAX` dan `MIN` untuk setiap kelompok.
+- `HAVING COUNT(harga_rental) > 1` merupakan klausa yang digunakan untuk menyaring kelompok yang memiliki lebih dari satu baris data di kolom `harga_rental`.
+### Kesimpulan 
+Perintah SQL ini akan menghasilkan daftar `pemilik` mobil beserta nilai pemasukan terbesar dan pemasukan terkecil dari harga rental yang mereka miliki. Hasil query akan menampilkan tiga kolom: pemilik yang berisi nama `pemilik`, `Pemasukan_Terbesar` yang berisi nilai tertinggi dari harga rental, dan `pemasukan_terkecil` yang berisi nilai terendah dari harga rental untuk setiap pemilik yang memiliki lebih dari satu data rental.

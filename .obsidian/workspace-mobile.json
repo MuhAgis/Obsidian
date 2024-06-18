@@ -11,11 +11,9 @@
             "id": "7562255301401d19",
             "type": "leaf",
             "state": {
-              "type": "markdown",
+              "type": "pdf",
               "state": {
-                "file": "PRAKTIKUM/Catatan.md",
-                "mode": "source",
-                "source": false
+                "file": "CSS/File CSS.pdf"
               }
             }
           },
@@ -115,7 +113,7 @@
         "state": {
           "type": "backlink",
           "state": {
-            "file": "PRAKTIKUM/Catatan.md",
+            "file": "CSS/File CSS.pdf",
             "collapseAll": false,
             "extraContext": false,
             "sortOrder": "alphabetical",
@@ -132,7 +130,7 @@
         "state": {
           "type": "outgoing-link",
           "state": {
-            "file": "PRAKTIKUM/Catatan.md",
+            "file": "CSS/File CSS.pdf",
             "linksCollapsed": false,
             "unlinkedCollapsed": true
           }
@@ -144,7 +142,7 @@
         "state": {
           "type": "outline",
           "state": {
-            "file": "PRAKTIKUM/Catatan.md"
+            "file": "CSS/File CSS.pdf"
           }
         }
       }
@@ -164,50 +162,50 @@
   },
   "active": "7562255301401d19",
   "lastOpenFiles": [
-    "PRAKTIKUM/Aset/2.jpg",
-    "PRAKTIKUM/Aset/gbr1.png",
+    "Basis Data/Catatan Basis Data.md",
+    "PHP/Catatan PHP.md",
+    "PHP/PHP Mysql.md",
+    "Basis Data/Select Lanjutan.md",
+    "CSS/File CSS.md",
     "PRAKTIKUM/Catatan.md",
+    "PHP/Pengenalan PHP.md",
+    "Eksplorasi CSS/Width dan height.md",
+    "Tempat ss.md",
+    "Basis Data/Asett/Ss21.png",
+    "Basis Data/Asett/Ss20.png",
+    "Basis Data/Asett/Ss19.png",
+    "Basis Data/Asett/Ss18.png",
+    "Basis Data/Asett/Ss16.png",
+    "Basis Data/Asett/Ss15.png",
+    "Basis Data/Asett/Ss17.png",
+    "Basis Data/Asett/Ss16.png",
+    "Basis Data/Asett/Ss15.png",
+    "Basis Data/Asett/Ss14.png",
+    "CSS.zip",
+    "Asett.md",
+    "HTML/Catatan HTML.md",
     "PRAKTIKUM 5/Catatan.md",
-    "PRAKTIKUM/Aset/gbr3.png",
-    "PRAKTIKUM/Aset/gbr2.png",
-    "PRAKTIKUM/Aset/Pegawai.jpg",
-    "PRAKTIKUM/Aset/9.jpg",
-    "PRAKTIKUM/Aset/8.jpg",
-    "PRAKTIKUM/Aset/4.jpg",
-    "PRAKTIKUM/Aset/3.jpg",
-    "PRAKTIKUM/Aset/19.jpg",
     "PRAKTIKUM/Aset",
     "PRAKTIKUM",
     "obsidian PRAKTIKUM/Catatan.md",
     "obsidian PRAKTIKUM/Aset",
     "obsidian PRAKTIKUM",
-    "PHP/Catatan PHP.md",
     "PRAKTIKUM 5/Aset",
     "PRAKTIKUM 5",
-    "PHP/PHP Mysql.md",
-    "PHP/Pengenalan PHP.md",
-    "Tempat ss.md",
-    "HTML/Catatan HTML.md",
     "Apa.md",
     "PHP/Asetmysql",
     "Untitled.md",
     "Basis Data/Alterr.md",
-    "Basis Data/Select Lanjutan.md",
-    "Basis Data/Catatan Basis Data.md",
-    "Eksplorasi CSS/Width dan height.md",
     "Basis Data/ALTER.md",
     "Basis Data/Untitled.md",
     "Html belajar/Select Lanjutan-1.md",
     "Basis Data/Pengenalan Basis Data.md",
     "Html belajar/SELECT LANJUTAN.md",
-    "CSS/File CSS.md",
     "Html belajar/Bootstrap Framework.md",
     "CSS/assets",
     "PhpMyAdmin/Catatan PhpMyAdmin.md",
     "Basis Data/PhpMyAdmin.md",
     "PhpMyAdmin/Pratikum 5.md",
-    "PRAKTIKUM 5.zip",
-    "Pratikum 5.zip",
-    "Asep/Ss.md"
+    "PRAKTIKUM 5.zip"
   ]
 }

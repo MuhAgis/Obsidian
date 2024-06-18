@@ -7,7 +7,15 @@
 **Kesimpulan** : **Basis data** adalah kumpulan informasi yg disimpan di dalam komputer secara sistematik.
 ## Peranan Basis Data
 **Lembaga Indomaret** : menggunakan sistem basis data untuk mencatat data karyawan, kode barang, harga barang, kasir, isi barang, tempat barang. Jika melakukan transaksi ada Kasir yg melakukan transaksi dengan pembeli, jika ada barang masuk karyawan/staf yg mengatur tempat barangnya serta menghitung barang yg masuk, karyawan yg menjaga kasir.
-## Struktur Basis Data
+# Database
+## Contoh struktur database
+![](Asett/Ss12.png)
+## Struktur tabel dalam basis data
+Struktur/Hirarki DataBase adalah struktur organisasi data dalam database yang mengatur hubungan antara entitas atau tabel data.Di dalam hirarki database,data diorganisir dalam bentuk pohon dengan satu entitas induk atau tabel utama yang memiliki beberapa entitas tabel yang terkait.
+
+Database saya anggap seperti Liga Inggris yang dimana Dia Menampung Club" Seperti MU,MC, yg di dalamnya Mempunyai Pemain Yang berbeda beda Sama Seperti Database dimana Dia Menampung File" Yg berbeda beda di dalamnya Contohnya: Ada 4 Club yg saya Ambil 1 saya Uraikan DiMana 4 Club itu ada Manchester United, Manchester city, Tottenham, Aston Villa. Yang saya Uraikan Manchester City dalam bentuk Tabel.
+## Struktur Database
+
 | NO |             NO | NAMA                  | KELAS    | UMUR | KLM |
 | -- | -------------- | --------------------- | -------- | ---- | --- |
 |    | 1              | Ahmad Anugrah Satya   | XI RPL 1 | 16   | L   |
@@ -33,7 +41,7 @@ Database (basis data) adalah kumpulan data yang terorganisir dengan cara tertent
 4. Item Data atau Karakter:  merupakan isian dari baris dan kolom.
 
 # instalasi mySQL
-## menggunakan termux
+## Menggunakan termux
 1. Buka termux
 2. Ketik ``termux-setup-storage``
 3. Klik izinkan/allow access
@@ -44,13 +52,13 @@ Database (basis data) adalah kumpulan data yang terorganisir dengan cara tertent
 8. Ketik ``mysqld_safe`` untuk memberi keamanan
 9. Untuk menghentikan proses ``ctrl+z``
 10. Masuk ke akun admin ``mysql -u root`` 
-## referensi youtube
+## Referensi youtube
 https://youtu.be/JojQd-l7fEE?si=OPIB01q45A2FmY1x
 # penggunaan awal MySQL
 ## Query
 ``<mysql -u root -p>``
 ## hasil
-![250](Asett/Mysql1.png)
+![250](Asett/Ss13.png)
 
 ## Analisis kesimpulan
 - `<mySQL>` Salah satu aplikasi database server dengan bahasa pemrograman structured query languange `(SQL)` yang berfungsi untuk mengelola data secara terstruktur dan sistematis.
@@ -66,7 +74,9 @@ Database (basis data) adalah kumpulan terstruktur dari informasi yang disimpan s
 
 ### Hasil:
 ![300](Asett/Mysql2.jpg)
-
+### Analisis Kesimpulan
+- CREATE DATABASE adalah perintah untuk membuat database baru.
+- XRPL 1 adalah nama yang Anda pilih untuk database baru Anda. Tanda kurung siku '<("{}")>'digunakan di sini untuk menghindari kesalahan jika nama database mengandung karakter spesial atau spasi. Namun, perlu dicatat bahwa tidak semua DBMS mengizinkan penggunaan tanda kurung siku dalam nama database, jadi pastikan untuk menyesuaikan sintaksdengan DBMS yang Anda gunakan.
 ## Tampilkan data base
 `SHOW DATABASE` digunakan untuk menampilkan daftar database yang ada dalam sistem manejemen basis data (DBMS). Perintah ini dapat digunakan di beberapa DBMS seperti MYSQL, PostgreSQL, dan beberapa DBMS lainnya. Namun, perintahnya dapat sedikit berbeda tergantung
 ### Query 
@@ -74,20 +84,24 @@ Database (basis data) adalah kumpulan terstruktur dari informasi yang disimpan s
 
 ### Hasil:
 ![250](Asett/Mysql4.jpg)
+### Analisis Kesimpulan
+`SHOW DATABASE` digunakan untuk menampilkan daftar database yang ada dalam sistem manejemen basis data (DBMS). Perintah ini dapat digunakan di beberapa DBMS seperti MYSQL, PostgreSQL, dan beberapa DBMS lainnya. Namun, perintahnya dapat sedikit berbeda tergantung
 ## hapus database
 ``<DROP DATABASE [nama_database]>`` digunakan dalam sistem manajemen basis data (DBMS) untuk menghapus sebuah database beserta semua objek yang terkait dengan database tersebut, seperti tabel, indeks, tampilan, prosedur tersimpan, dan lain-lain.
 ### Query
 ``drop database xi_rpl_1``
 ### Hasil:
 ![300](Asett/Mysql3.png)
-
-## gunakan data base
+### Analisis Kesimpulan
+`DROP DATABASE nama database` digunakan dalam sistem manajemen basis data (DBMS) untuk menghapus sebuah database beserta semua objek yang terkait dengan database tersebut, seperti tabel, indeks, tampilan, prosedur tersimpan, dan lain-lain.
+## Gunakan data base
 ``USE [nama_database]`` digunakan dalam sistem manajemen basis data (DBMS) untuk beralih atau memilih database yang akan digunakan. Ketika Anda menggunakan perintah ``<USE>`` diikuti dengan nama database, DBMS akan mengarahkan semua perintah dan operasi selanjutnya pada database yang ditentukan.
 ### Query
 `` use xi_rpl_1; ``
 ### Hasil:
 ![300](Asett/Mysql5.jpg)
-
+### Analisis Kesimpulan
+`Use [nams database]` digunakan dalam sistem manajemen basis data (DBMS) untuk beralih atau memilih database yang akan digunakan. Ketika Anda menggunakan perintah uses diikuti dengan nama database, DBMS akan mengarahkan semua perintah dan operasi selanjutnya pada database yang ditentukan.
 # Tipe Data
 ## Angka
 **INT**: Untuk menyimpan nilai bilangan bulat (integer). Misalnya, INT dapat digunakan untuk menyimpan angka seperti 1, 100, -10, dan sebagainya.
