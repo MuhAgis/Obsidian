@@ -104,13 +104,13 @@
 ![[Basis Data/Asett/Ss19.png]]
 ![[Basis Data/Asett/Ss20.png]]
 ![[Basis Data/Asett/Ss21.png]]
-
-
-
-
-
-
-
+![[Ss22.jpg]]
+![[Ss24.jpg]]
+![[Ss23.jpg]]
+![[Ss25.jpg]]
+![[Ss26.jpg]]
+![[Ss27.jpg]]
+![[Ss28.jpg]]
 
 
 

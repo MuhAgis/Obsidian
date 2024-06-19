@@ -1000,3 +1000,30 @@ HAVING COUNT(harga_rental) > 1;
 - `HAVING COUNT(harga_rental) > 1` merupakan klausa yang digunakan untuk menyaring kelompok yang memiliki lebih dari satu baris data di kolom `harga_rental`.
 ### Kesimpulan 
 Perintah SQL ini akan menghasilkan daftar `pemilik` mobil beserta nilai pemasukan terbesar dan pemasukan terkecil dari harga rental yang mereka miliki. Hasil query akan menampilkan tiga kolom: pemilik yang berisi nama `pemilik`, `Pemasukan_Terbesar` yang berisi nilai tertinggi dari harga rental, dan `pemasukan_terkecil` yang berisi nilai terendah dari harga rental untuk setiap pemilik yang memiliki lebih dari satu data rental.
+# RELASI
+## Data Tabel Pegawai
+![](Asett/Ss22.jpg)
+## Perubahan Struktur tabel
+### Before
+![](Asett/Ss23.jpg)
+### After
+![](Asett/Ss24.jpg)
+
+**Pada kolom ke 3 NamaKel diganti menjadi NamaOrtu**
+
+## Perubahan Data tabel
+### Before
+![](Asett/Ss25.jpg)
+### After
+![](Asett/Ss26.jpg)
+
+**Pada kolom pertama(1) Alamatnya diganti**
+
+## Hasil Relasi
+![](Asett/Ss27.jpg)
+
+## Query relasi dan hasil
+### Query
+![](Asett/Ss28.jpg)
+### Hasil
+![](Asett/Ss27.jpg)

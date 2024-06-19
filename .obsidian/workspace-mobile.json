@@ -11,9 +11,11 @@
             "id": "7562255301401d19",
             "type": "leaf",
             "state": {
-              "type": "pdf",
+              "type": "markdown",
               "state": {
-                "file": "CSS/File CSS.pdf"
+                "file": "Basis Data/Select Lanjutan.md",
+                "mode": "source",
+                "source": false
               }
             }
           },
@@ -113,7 +115,7 @@
         "state": {
           "type": "backlink",
           "state": {
-            "file": "CSS/File CSS.pdf",
+            "file": "Basis Data/Select Lanjutan.md",
             "collapseAll": false,
             "extraContext": false,
             "sortOrder": "alphabetical",
@@ -130,7 +132,7 @@
         "state": {
           "type": "outgoing-link",
           "state": {
-            "file": "CSS/File CSS.pdf",
+            "file": "Basis Data/Select Lanjutan.md",
             "linksCollapsed": false,
             "unlinkedCollapsed": true
           }
@@ -142,7 +144,7 @@
         "state": {
           "type": "outline",
           "state": {
-            "file": "CSS/File CSS.pdf"
+            "file": "Basis Data/Select Lanjutan.md"
           }
         }
       }
@@ -162,25 +164,28 @@
   },
   "active": "7562255301401d19",
   "lastOpenFiles": [
-    "Basis Data/Catatan Basis Data.md",
-    "PHP/Catatan PHP.md",
-    "PHP/PHP Mysql.md",
+    "Tempat ss.md",
+    "Basis Data/Asett/Ss28.jpg",
     "Basis Data/Select Lanjutan.md",
+    "Basis Data/Select Lanjutan.pdf",
+    "Basis Data/Asett/Ss27.jpg",
+    "Basis Data/Asett/Ss26.jpg",
+    "Basis Data/Asett/Ss25.jpg",
+    "Basis Data/Asett/Ss23.jpg",
+    "Basis Data/Asett/Ss24.jpg",
+    "Basis Data/Asett/Ss22.jpg",
+    "Apa.md",
+    "PHP/Catatan PHP.md",
+    "CSS/File CSS.pdf",
+    "Basis Data/Catatan Basis Data.md",
+    "PHP/PHP Mysql.md",
     "CSS/File CSS.md",
     "PRAKTIKUM/Catatan.md",
     "PHP/Pengenalan PHP.md",
     "Eksplorasi CSS/Width dan height.md",
-    "Tempat ss.md",
     "Basis Data/Asett/Ss21.png",
     "Basis Data/Asett/Ss20.png",
     "Basis Data/Asett/Ss19.png",
-    "Basis Data/Asett/Ss18.png",
-    "Basis Data/Asett/Ss16.png",
-    "Basis Data/Asett/Ss15.png",
-    "Basis Data/Asett/Ss17.png",
-    "Basis Data/Asett/Ss16.png",
-    "Basis Data/Asett/Ss15.png",
-    "Basis Data/Asett/Ss14.png",
     "CSS.zip",
     "Asett.md",
     "HTML/Catatan HTML.md",
@@ -192,7 +197,6 @@
     "obsidian PRAKTIKUM",
     "PRAKTIKUM 5/Aset",
     "PRAKTIKUM 5",
-    "Apa.md",
     "PHP/Asetmysql",
     "Untitled.md",
     "Basis Data/Alterr.md",
@@ -202,10 +206,8 @@
     "Basis Data/Pengenalan Basis Data.md",
     "Html belajar/SELECT LANJUTAN.md",
     "Html belajar/Bootstrap Framework.md",
-    "CSS/assets",
     "PhpMyAdmin/Catatan PhpMyAdmin.md",
     "Basis Data/PhpMyAdmin.md",
-    "PhpMyAdmin/Pratikum 5.md",
-    "PRAKTIKUM 5.zip"
+    "PhpMyAdmin/Pratikum 5.md"
   ]
 }
