@@ -17,7 +17,7 @@
 ![[Ss28.png]]
 ![[Ss28.png]]
 ![[Ss27.png]]
-![[Ss29.png]]
+![[CSS/Asep/Ss29.png]]
 ![[Ss30.png]]
 ![[Ss31.png]]
 ![[Ss32.png]]
@@ -111,7 +111,7 @@
 ![[Ss26.jpg]]
 ![[Ss27.jpg]]
 ![[Ss28.jpg]]
-
+![[Basis Data/Asett/Ss29.png]]
 
 
 

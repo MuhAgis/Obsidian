@@ -133,7 +133,7 @@ WHERE [nama_kolom] = [nilai];
 SELECT nama FROM akun WHERE nama="Agis";
 ```
 ### Hasil
-![a](Asett/Ss14.png)
+![a](Asett/Ss29.png)
 ### Analisis
 - `SELECT nama`: Menunjukkan bahwa kita ingin mengambil data dari kolom nama.
 - `FROM akun`: Menunjukkan bahwa tabel sumber data adalah tabel akun.
