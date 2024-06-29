@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Penggunaan github/Github.md",
+                "file": "Perubahan github/Aa.md",
                 "mode": "source",
                 "source": false
               }
@@ -115,7 +115,7 @@
         "state": {
           "type": "backlink",
           "state": {
-            "file": "Penggunaan github/Github.md",
+            "file": "Perubahan github/Aa.md",
             "collapseAll": false,
             "extraContext": false,
             "sortOrder": "alphabetical",
@@ -132,7 +132,7 @@
         "state": {
           "type": "outgoing-link",
           "state": {
-            "file": "Penggunaan github/Github.md",
+            "file": "Perubahan github/Aa.md",
             "linksCollapsed": false,
             "unlinkedCollapsed": true
           }
@@ -144,7 +144,7 @@
         "state": {
           "type": "outline",
           "state": {
-            "file": "Penggunaan github/Github.md"
+            "file": "Perubahan github/Aa.md"
           }
         }
       }
@@ -164,9 +164,12 @@
   },
   "active": "7562255301401d19",
   "lastOpenFiles": [
-    "Tempat ss.md",
-    "Penggunaan github/AsetG/Ss2.jpg",
     "Penggunaan github/Github.md",
+    "Perubahan github/Aa.md",
+    "Tempat ss.md",
+    "Penggunaan github/AsetG/Ss4.jpg",
+    "Penggunaan github/AsetG/Ss3.jpg",
+    "Penggunaan github/AsetG/Ss2.jpg",
     "Penggunaan github/AsetG/Ss1.jpg",
     "Perubahan github",
     "Basis Data/Select Lanjutan.md",
@@ -179,8 +182,6 @@
     "Basis Data/Asett/Ss26.jpg",
     "Basis Data/Asett/Ss25.jpg",
     "Basis Data/Asett/Ss23.jpg",
-    "Basis Data/Asett/Ss24.jpg",
-    "Basis Data/Asett/Ss22.jpg",
     "Apa.md",
     "PHP/Catatan PHP.md",
     "CSS/File CSS.pdf",

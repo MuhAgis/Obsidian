@@ -34,3 +34,4 @@ Ini akan menampilkan perubahan pada github,terus lakukan untuk menggupload di gi
 #### Before
 ![](AsetG/Ss2.jpg)
 #### After
+![](AsetG/Ss3.jpg)
