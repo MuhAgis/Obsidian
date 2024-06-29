@@ -11,6 +11,7 @@
 9. Ketik `git commit -m "(Isi terserah)"` . digunakan untuk membuat commit baru dengan pesan yang ditentukan di dalam tanda kutip.
 10. Lalu ketik `git push origin master`.digunakan untuk mengirim (push) perubahan yang telah di-commit di branch `master` pada repository lokal ke repository remote yang bernama `origin`.
 11. Masukkan nama github kalian dan masukkan password atau link key yang kalian sudah salin.
+![](AsetG/Ss4.jpg)
 ---
 ## Melakukan perubahan
 
