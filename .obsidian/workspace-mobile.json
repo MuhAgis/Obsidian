@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Basis Data/Select Lanjutan.md",
+                "file": "Penggunaan github/Github.md",
                 "mode": "source",
                 "source": false
               }
@@ -115,7 +115,7 @@
         "state": {
           "type": "backlink",
           "state": {
-            "file": "Basis Data/Select Lanjutan.md",
+            "file": "Penggunaan github/Github.md",
             "collapseAll": false,
             "extraContext": false,
             "sortOrder": "alphabetical",
@@ -132,7 +132,7 @@
         "state": {
           "type": "outgoing-link",
           "state": {
-            "file": "Basis Data/Select Lanjutan.md",
+            "file": "Penggunaan github/Github.md",
             "linksCollapsed": false,
             "unlinkedCollapsed": true
           }
@@ -144,7 +144,7 @@
         "state": {
           "type": "outline",
           "state": {
-            "file": "Basis Data/Select Lanjutan.md"
+            "file": "Penggunaan github/Github.md"
           }
         }
       }
@@ -164,9 +164,13 @@
   },
   "active": "7562255301401d19",
   "lastOpenFiles": [
+    "Basis Data/Select Lanjutan.md",
+    "Penggunaan github/Github.md",
+    "Penggunaan github/AsetG",
+    "Untitled",
+    "Penggunaan github",
     "Tempat ss.md",
     "Basis Data/Asett/Ss29.png",
-    "Basis Data/Select Lanjutan.md",
     "Basis Data/Asett/Ss28.jpg",
     "Basis Data/Select Lanjutan.pdf",
     "Basis Data/Asett/Ss27.jpg",
@@ -195,9 +199,6 @@
     "obsidian PRAKTIKUM/Catatan.md",
     "obsidian PRAKTIKUM/Aset",
     "obsidian PRAKTIKUM",
-    "PRAKTIKUM 5/Aset",
-    "PRAKTIKUM 5",
-    "PHP/Asetmysql",
     "Untitled.md",
     "Basis Data/Alterr.md",
     "Basis Data/ALTER.md",
