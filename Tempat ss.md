@@ -112,8 +112,8 @@
 ![[Ss27.jpg]]
 ![[Ss28.jpg]]
 ![[Basis Data/Asett/Ss29.png]]
-
-
+![[Ss1.jpg]]
+![[Ss2.jpg]]
 
 
 
