@@ -13,7 +13,19 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Penggunaan github/Github.md",
+                "file": "Basis Data/Agregasi.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "8e444b235bd207db",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Remed-PBO.md",
                 "mode": "source",
                 "source": false
               }
@@ -31,7 +43,8 @@
               }
             }
           }
-        ]
+        ],
+        "currentTab": 1
       },
       {
         "id": "0cfa37e8ea7229c8",
@@ -115,7 +128,7 @@
         "state": {
           "type": "backlink",
           "state": {
-            "file": "Penggunaan github/Github.md",
+            "file": "Remed-PBO.md",
             "collapseAll": false,
             "extraContext": false,
             "sortOrder": "alphabetical",
@@ -132,7 +145,7 @@
         "state": {
           "type": "outgoing-link",
           "state": {
-            "file": "Penggunaan github/Github.md",
+            "file": "Remed-PBO.md",
             "linksCollapsed": false,
             "unlinkedCollapsed": true
           }
@@ -144,7 +157,7 @@
         "state": {
           "type": "outline",
           "state": {
-            "file": "Penggunaan github/Github.md"
+            "file": "Remed-PBO.md"
           }
         }
       }
@@ -162,30 +175,40 @@
       "notion-like-tables:Create loom": false
     }
   },
-  "active": "87b768803dae14ca",
+  "active": "8e444b235bd207db",
   "lastOpenFiles": [
+    "Basis Data/Agregasi.md",
+    "Remed-PBO.md",
+    "Remed-PBO.md",
+    "PRAKTIKUM/Praktikum5.md",
+    "PRAKTIKUM/Aset/Pegawai.jpg",
+    "PRAKTIKUM/Aset/1.jpg",
+    "PRAKTIKUM/Praktikum5.pdf",
+    "Basis Data/AsetA",
+    "Basis Data/Basis Data XII.md",
+    "Basis Data/Select Lanjutan.md",
+    "Basis Data/Alterr.pdf",
+    "Basis Data/AsetXII",
+    "Basis Data/Alterr.md",
+    "Basis Data/Catatan Basis Data.md",
+    "Penggunaan github/Github.md",
     "Tempat ss.md",
     "Penggunaan github/AsetG/Ss3.jpg",
-    "Penggunaan github/Github.md",
     "Perubahan github/Aa.md",
     "Penggunaan github/AsetG/Ss4.jpg",
     "Penggunaan github/AsetG/Ss3.jpg",
     "Penggunaan github/AsetG/Ss2.jpg",
     "Penggunaan github/AsetG/Ss1.jpg",
     "Perubahan github",
-    "Basis Data/Select Lanjutan.md",
     "Penggunaan github/AsetG",
     "Penggunaan github",
     "Basis Data/Asett/Ss29.png",
     "Basis Data/Asett/Ss28.jpg",
     "Basis Data/Select Lanjutan.pdf",
     "Basis Data/Asett/Ss27.jpg",
-    "Basis Data/Asett/Ss26.jpg",
-    "Basis Data/Asett/Ss25.jpg",
     "Apa.md",
     "PHP/Catatan PHP.md",
     "CSS/File CSS.pdf",
-    "Basis Data/Catatan Basis Data.md",
     "PHP/PHP Mysql.md",
     "CSS/File CSS.md",
     "PRAKTIKUM/Catatan.md",
@@ -195,19 +218,10 @@
     "Asett.md",
     "HTML/Catatan HTML.md",
     "PRAKTIKUM 5/Catatan.md",
-    "PRAKTIKUM/Aset",
-    "PRAKTIKUM",
     "obsidian PRAKTIKUM/Catatan.md",
-    "obsidian PRAKTIKUM/Aset",
-    "obsidian PRAKTIKUM",
-    "Untitled.md",
-    "Basis Data/Alterr.md",
     "Basis Data/ALTER.md",
-    "Basis Data/Untitled.md",
     "Html belajar/Select Lanjutan-1.md",
     "Basis Data/Pengenalan Basis Data.md",
-    "Html belajar/SELECT LANJUTAN.md",
-    "Html belajar/Bootstrap Framework.md",
-    "PhpMyAdmin/Catatan PhpMyAdmin.md"
+    "Html belajar/SELECT LANJUTAN.md"
   ]
 }

@@ -12,9 +12,9 @@ ALTER TABLE mobil ADD batas_peminjaman varchar(10) AFTER peminjam;
 
 ### Hasil
 #### Before
-![](Asett/Ss1.png)
+![](Basis%20Data/Asett/Ss1.png)
 #### After
-![](Asett/Ss2.png)
+![](Basis%20Data/Asett/Ss2.png)
 ### Analisis
 - `ALTER TABLE mobil`: Perintah untuk mengubah struktur tabel `mobil`.
 - `ADD batas_peminjaman varchar(10)`: Menambahkan kolom baru dengan nama `batas_peminjaman` yang memiliki tipe data `varchar(10)`.
@@ -36,7 +36,7 @@ ALTER TABLE mobil CHANGE COLUMN batas_peminjaman To deadline;
 ```
 
 ### Hasil
-![](Asett/Ss3.png)
+![](Basis%20Data/Asett/Ss3.png)
 
 ### Analisis
 - `ALTER TABLE mobil`: Perintah untuk mengubah struktur tabel `mobil`.
@@ -60,7 +60,7 @@ ALTER TABLE mobil MODIFY deadline DATE;
 
 
 ### Hasil
-![](Asett/Ss5.png)
+![](Basis%20Data/Asett/Ss5.png)
 
 ### Analisis
 - `ALTER TABLE mobil`: Perintah untuk mengubah struktur tabel `mobil`.
@@ -83,7 +83,7 @@ ALTER TABLE mobil ALTER deadline SET DEFAULT 'Ready';
 ```
 
 ### Hasil
-![](Asett/Ss6.png)
+![](Basis%20Data/Asett/Ss6.png)
 
 ### Analisis
 - `ALTER TABLE mobil`: Perintah untuk mengubah struktur tabel `mobil`.
@@ -104,7 +104,7 @@ ALTER TABLE mobil ALTER deadline DROP DEFAULT;
 ```
 
 ### Hasil
-![](Asett/Ss9.png)
+![](Basis%20Data/Asett/Ss9.png)
 
 ### Analisis
 - `ALTER TABLE mobil`: Perintah untuk mengubah struktur tabel `mobil`.
@@ -126,7 +126,7 @@ ALTER TABLE mobil DROP COLUMN deadline
 ```
 
 ### Hasil
-![](Asett/Ss10.png)
+![](Basis%20Data/Asett/Ss10.png)
 
 ### Analisis
 - `ALTER TABLE mobil`: Perintah untuk mengubah struktur tabel `mobil`.
@@ -147,7 +147,7 @@ ALTER TABLE mobil RENAME TO data_mobil;
 ```
 
 ### Hasil
-![](Asett/Ss11.png)
+![](Basis%20Data/Asett/Ss11.png)
 
 ### Analisis
 - `ALTER TABLE mobil`: Perintah untuk mengubah tabel dengan nama `mobil`.

@@ -9,7 +9,7 @@
 **Lembaga Indomaret** : menggunakan sistem basis data untuk mencatat data karyawan, kode barang, harga barang, kasir, isi barang, tempat barang. Jika melakukan transaksi ada Kasir yg melakukan transaksi dengan pembeli, jika ada barang masuk karyawan/staf yg mengatur tempat barangnya serta menghitung barang yg masuk, karyawan yg menjaga kasir.
 # Database
 ## Contoh struktur database
-![](Asett/Ss12.png)
+![](Basis%20Data/Asett/Ss12.png)
 ## Struktur tabel dalam basis data
 Struktur/Hirarki DataBase adalah struktur organisasi data dalam database yang mengatur hubungan antara entitas atau tabel data.Di dalam hirarki database,data diorganisir dalam bentuk pohon dengan satu entitas induk atau tabel utama yang memiliki beberapa entitas tabel yang terkait.
 
@@ -58,7 +58,7 @@ https://youtu.be/JojQd-l7fEE?si=OPIB01q45A2FmY1x
 ## Query
 ``<mysql -u root -p>``
 ## hasil
-![250](Asett/Ss13.png)
+![250](Basis%20Data/Asett/Ss13.png)
 
 ## Analisis kesimpulan
 - `<mySQL>` Salah satu aplikasi database server dengan bahasa pemrograman structured query languange `(SQL)` yang berfungsi untuk mengelola data secara terstruktur dan sistematis.
@@ -73,7 +73,7 @@ Database (basis data) adalah kumpulan terstruktur dari informasi yang disimpan s
 ``create database xi_rpl_1;``
 
 ### Hasil:
-![300](Asett/Mysql2.jpg)
+![300](Mysql2.jpg)
 ### Analisis Kesimpulan
 - CREATE DATABASE adalah perintah untuk membuat database baru.
 - XRPL 1 adalah nama yang Anda pilih untuk database baru Anda. Tanda kurung siku '<("{}")>'digunakan di sini untuk menghindari kesalahan jika nama database mengandung karakter spesial atau spasi. Namun, perlu dicatat bahwa tidak semua DBMS mengizinkan penggunaan tanda kurung siku dalam nama database, jadi pastikan untuk menyesuaikan sintaksdengan DBMS yang Anda gunakan.
@@ -83,7 +83,7 @@ Database (basis data) adalah kumpulan terstruktur dari informasi yang disimpan s
 ``show databases;``
 
 ### Hasil:
-![250](Asett/Mysql4.jpg)
+![250](Mysql4.jpg)
 ### Analisis Kesimpulan
 `SHOW DATABASE` digunakan untuk menampilkan daftar database yang ada dalam sistem manejemen basis data (DBMS). Perintah ini dapat digunakan di beberapa DBMS seperti MYSQL, PostgreSQL, dan beberapa DBMS lainnya. Namun, perintahnya dapat sedikit berbeda tergantung
 ## hapus database
@@ -91,7 +91,7 @@ Database (basis data) adalah kumpulan terstruktur dari informasi yang disimpan s
 ### Query
 ``drop database xi_rpl_1``
 ### Hasil:
-![300](Asett/Mysql3.png)
+![300](Mysql3.png)
 ### Analisis Kesimpulan
 `DROP DATABASE nama database` digunakan dalam sistem manajemen basis data (DBMS) untuk menghapus sebuah database beserta semua objek yang terkait dengan database tersebut, seperti tabel, indeks, tampilan, prosedur tersimpan, dan lain-lain.
 ## Gunakan data base
@@ -99,7 +99,7 @@ Database (basis data) adalah kumpulan terstruktur dari informasi yang disimpan s
 ### Query
 `` use xi_rpl_1; ``
 ### Hasil:
-![300](Asett/Mysql5.jpg)
+![300](Mysql5.jpg)
 ### Analisis Kesimpulan
 `Use [nams database]` digunakan dalam sistem manajemen basis data (DBMS) untuk beralih atau memilih database yang akan digunakan. Ketika Anda menggunakan perintah uses diikuti dengan nama database, DBMS akan mengarahkan semua perintah dan operasi selanjutnya pada database yang ditentukan.
 # Tipe Data
@@ -159,7 +159,7 @@ no_telp char(12) UNIQUE );
 ```
 
 **Hasil**:
-![s](Asett/Struktur.jpg)
+![s](Struktur.jpg)
 
 **Analisis**:
 - `id_pelanggan`: Kolom bertipe data integer dengan panjang maksimum 4 digit. Dideklarasikan sebagai kunci utama (PRIMARY KEY) yang tidak boleh kosong (NOT NULL).
@@ -177,7 +177,7 @@ struktur tabel ini memungkinkan untuk menyimpan informasi dasar tentang pelangga
 `desc Pelanggan;`
 
 **Contoh**:
-![s](Asett/Struktur.jpg)
+![s](Struktur.jpg)
 
 **Analisis**:
 `desc pelanggan;`:dapat melihat secara detail karakteristik dari setiap kolom dalam tabel tersebut, termasuk nama kolom, tipe data, panjang maksimum (jika berlaku), dan konstrain khusus seperti PRIMARY KEY, UNIQUE, atau NOT NULL yang diterapkan pada setiap kolom.
@@ -192,7 +192,7 @@ perintah tersebut memberikan gambaran tentang bagaimana tabel "Pelanggan" telah 
 `show tables;`
 
 **Hasil**:
-![s](Asett/Tables.jpg)
+![s](Tables.jpg)
 
 **Analisis**:
 `show tables;`:untuk menampilkan semua tabel yang ada dalam database yang sedang aktif.
@@ -231,7 +231,7 @@ insert into Pelanggan
 values (1,"muhammad","agis","08500000");
 ```
 ### Hasil
-![s](Asett/Data1.jpg)
+![s](Data1.jpg)
 ### Analisis
 
 - `insert into Pelanggan`: Ini adalah perintah untuk memasukkan baris data ke dalam tabel "Pelanggan".
@@ -252,7 +252,7 @@ insert into Pelanggan
 values (2,"muh","nur","0890000"),(3,"muh","daud","0870000"),(4,"ahmad","anugrah","08100000");
 ```
 ### Hasil
-![s](Asett/Data2.jpg)
+![s](Data2.jpg)
 
 ### Analisis 
 - `insert into Pelanggan`: Ini adalah perintah untuk memasukkan baris data ke dalam tabel "Pelanggan".
@@ -273,7 +273,7 @@ insert into Pelanggan
 values (5,"muh","fadil");
 ```
 ### Hasil
-![a](Asett/Kolom1.jpg)
+![a](Kolom1.jpg)
 ### Analisis
 - `insert into Pelanggan`: Ini adalah perintah untuk memasukkan baris data ke dalam tabel "Pelanggan".
 - `(id_pelanggan,nama_depan,nama_belakang)`:yang diberikan nilai, sedangkan kolom lainnya akan diisi dengan nilai default jika diperbolehkan atau NULL jika tidak diizinkan.
@@ -287,7 +287,7 @@ sebuah entri baru telah dimasukkan ke dalam `tabel Pelanggan`,Tidak ada kolom la
 ### Contoh
 `select * from Pelanggan;`
 ### Hasil
-![a](Asett/Kolom1.jpg)
+![a](Kolom1.jpg)
 
 ### Analis 
 - `Select` merupakan query yang digunakan untuk menampilkan hasil `insert` 
@@ -305,7 +305,7 @@ From [nama_table];
 ### Contoh
 `select nama_depan from Pelanggan;`
 ### Hasil
-![a](Asett/Kolom2.jpg)
+![a](Kolom2.jpg)
 
 ### Analisis
 - `Select` merupakan query yang digunakan untuk menampilkan hasil `insert` 
@@ -324,7 +324,7 @@ Select [nama_kolom] from [nama_table] where kondisi;
 select id_pelanggan,nama_depan from Pelanggan where id_pelanggan=1;
 ```
 ### Hasil
-![a](Asett/Where.jpg)
+![a](Where.jpg)
 
 ### Analisis
 - `Select` merupakan query yang digunakan untuk menampilkan hasil `insert` 
@@ -345,7 +345,7 @@ Update nama_table set nama_kolom where kondisi;
 Update Pelanggan set no_telp="085326000" where id_pelanggan="1";
 ```
 ## Hasil
-![a](Asett/Update.jpg)
+![a](Update.jpg)
 
 ## Analisis 
 - `update` adalah query yang digunakan untuk memperbarui nilai dari kolom
@@ -367,7 +367,7 @@ Delete from nama_table where kondisi;
 delete from Pelanggan where id_pelanggan="5";
 ```
 ## Hasil
-![a](Asett/Delete.jpg)
+![a](Delete.jpg)
 ## Analisis
 - `delete` query yang digunakan untuk menghapus baris kolom
 - `from` query yang digunakan untuk memberikan penanda bahwa table mana yang akan di hapus baris nya

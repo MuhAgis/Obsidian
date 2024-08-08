@@ -137,7 +137,7 @@ body{
 ![[Min.png]]
 ![[Max.png]]
 ![[Rata.png]]
-![[Basis Data/Asett/T1.png]]
+![[T1.png]]
 ![[T2.png]]
 ![[Ba1.png]]
 ![[Ba2.png]]
